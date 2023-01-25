@@ -1,4 +1,5 @@
 import os
+import json
 
 class Competition:
   def __init__(self, teams, world, game_json):
@@ -13,6 +14,16 @@ class Competition:
     os.chdir("worlds")
     os.system(self.world)
     os.chdir("..")
+
+  def write_to_json(filename, elements):
+    with open(filename) as file:
+        data = json.load(file)
+
+    for k, v in elements.items():
+        data[k] = v
+
+    with open(filename, 'w') as outfile:
+        json.dump(data, outfile, indent=4)
 
   def assign_team(self, team_json, team):
     write_to_json(team_json, {"name" : team["name"], "robotStartCmd" : team["path"]})
