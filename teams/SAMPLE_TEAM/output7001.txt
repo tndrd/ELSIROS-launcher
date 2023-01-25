@@ -1,0 +1,768 @@
+2021-12-21 19:46:52.501349
+2021-12-21 19:46:56,730 Socket timeout
+2021-12-21 19:46:57,250 Socket timeout
+2021-12-21 19:46:57,770 Socket timeout
+2021-12-21 19:46:58,285 Socket timeout
+2021-12-21 19:46:58,799 Socket timeout
+2021-12-21 19:46:59,811 Socket timeout
+2021-12-21 19:47:00,321 Socket timeout
+2021-12-21 19:47:00,829 Socket timeout
+2021-12-21 19:47:01,334 Socket timeout
+2021-12-21 19:47:02,349 Socket timeout
+2021-12-21 19:47:03,357 Socket timeout
+2021-12-21 19:47:03,870 Socket timeout
+2021-12-21 19:47:04,379 Socket timeout
+2021-12-21 19:47:04,895 Socket timeout
+2021-12-21 19:47:05,403 Socket timeout
+2021-12-21 19:47:06,415 Socket timeout
+2021-12-21 19:47:06,931 Socket timeout
+2021-12-21 19:47:07,436 Socket timeout
+2021-12-21 19:47:07,941 Socket timeout
+2021-12-21 19:47:08,457 Socket timeout
+2021-12-21 19:47:09,467 Socket timeout
+2021-12-21 19:47:09,975 Socket timeout
+2021-12-21 19:47:10,481 Socket timeout
+2021-12-21 19:47:10,992 Socket timeout
+2021-12-21 19:47:11,505 Socket timeout
+2021-12-21 19:47:12,508 Socket timeout
+2021-12-21 19:47:13,030 Socket timeout
+2021-12-21 19:47:13,531 Socket timeout
+2021-12-21 19:47:14,034 Socket timeout
+2021-12-21 19:47:15,560 Socket timeout
+2021-12-21 19:47:16,066 Socket timeout
+2021-12-21 19:47:16,578 Socket timeout
+2021-12-21 19:47:17,090 Socket timeout
+2021-12-21 19:47:17,605 Socket timeout
+2021-12-21 19:47:18,116 Socket timeout
+2021-12-21 19:47:18,630 Socket timeout
+2021-12-21 19:47:19,139 Socket timeout
+2021-12-21 19:47:19,648 Socket timeout
+2021-12-21 19:47:20,152 Socket timeout
+2021-12-21 19:47:21,157 Socket timeout
+2021-12-21 19:47:21,670 Socket timeout
+2021-12-21 19:47:22,180 Socket timeout
+2021-12-21 19:47:22,685 Socket timeout
+2021-12-21 19:47:23,195 Socket timeout
+2021-12-21 19:47:24,204 Socket timeout
+2021-12-21 19:47:24,706 Socket timeout
+2021-12-21 19:47:25,229 Socket timeout
+2021-12-21 19:47:26,225 Socket timeout
+2021-12-21 19:47:32,834 Socket timeout
+2021-12-21 19:47:33,336 Socket timeout
+2021-12-21 19:47:34,354 Socket timeout
+2021-12-21 19:47:34,870 Socket timeout
+2021-12-21 19:47:35,379 Socket timeout
+2021-12-21 19:47:35,892 Socket timeout
+2021-12-21 19:47:36,898 Socket timeout
+2021-12-21 19:47:37,414 Socket timeout
+2021-12-21 19:47:37,918 Socket timeout
+2021-12-21 19:47:38,428 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:38,942 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:39,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:39,956 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:40,460 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:40,979 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:41,480 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:41,990 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:42,501 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:43,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:44,018 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:44,530 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:45,041 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:46,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:46,560 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:47,061 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:47,580 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:48,086 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:48,590 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:49,110 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:49,610 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:50,125 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:50,638 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:51,144 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:51,660 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:52,173 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:52,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:53,190 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:53,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:54,207 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:54,713 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:55,220 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:55,733 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:56,242 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:56,745 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:57,257 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:57,761 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:58,766 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:59,273 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:59,779 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:00,284 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:01,296 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:01,806 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:02,311 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:02,813 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:03,328 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:04,335 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:04,848 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:05,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:05,867 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:06,374 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:06,880 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:07,389 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:07,900 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:08,412 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:08,925 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:09,433 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:09,944 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:10,460 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:10,970 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:11,477 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:11,991 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:12,497 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:13,009 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:13,516 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:14,022 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:14,529 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:15,033 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:15,549 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:16,063 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:16,569 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:17,073 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:17,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:18,087 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:18,610 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:19,114 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:19,617 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:20,126 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:20,629 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:21,136 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:22,641 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:23,153 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:23,661 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:24,164 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:24,666 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:25,173 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:25,682 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:26,187 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:26,696 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:27,208 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:27,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:28,221 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:28,724 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:29,238 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:30,247 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:30,762 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:48:31,270 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:48:32,780 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:33,791 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:34,297 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:34,805 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:35,315 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:35,819 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:36,335 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:48:36,840 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:48:39,390 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:48:49,579 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:50,099 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:50,609 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:51,119 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:48:51,639 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:53,190 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:53,709 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:54,210 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:54,725 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:55,240 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:55,750 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:56,260 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:56,780 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:57,299 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:57,799 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:58,314 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:48:58,820 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:49:02,930 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:03,438 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:03,943 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:04,444 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:04,949 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:05,463 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:49:05,979 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:49:08,516 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:49:17,149 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:18,699 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:19,212 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:49:19,734 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:49:21,249 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:22,250 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:22,751 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:23,259 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:23,770 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:24,279 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:24,791 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:49:25,298 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:27,857 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:49:28,369 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:49:36,575 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:49:37,092 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:49:40,620 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:41,127 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:41,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:42,139 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:42,654 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:43,166 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:49:43,675 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:49:46,204 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:46,709 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:49:53,853 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:54,369 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:49:54,889 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:55,914 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:56,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:56,940 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:57,448 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:57,959 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:58,479 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:58,994 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:49:59,509 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:50:02,579 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:03,080 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:03,584 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:04,094 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:04,604 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:05,114 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:05,614 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:50:06,119 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:10,239 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:50:10,749 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:16,399 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:50:19,967 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:20,469 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:50:20,989 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:22,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:22,514 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:23,030 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:23,533 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:50:24,044 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:50:26,089 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:27,103 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:27,605 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:28,109 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:28,612 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:29,125 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:50:29,627 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:50:32,675 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:50:40,839 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:50:41,343 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:50:42,375 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:50:44,379 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:44,880 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:45,389 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:45,893 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:46,399 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:46,919 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:50:47,439 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:50:50,520 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:50:59,759 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:51:00,269 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:goalkeeper turn_To_Course(0)
+INFO:__main__:goalkeeper near_distance_omni_motion
+2021-12-21 19:51:04,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:05,419 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:goalkeeper turn_To_Course(0)
+2021-12-21 19:51:20,238 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:51:20,762 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:51:21,759 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-21 19:51:24,313 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:24,816 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:25,320 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:25,828 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:26,334 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:51:26,857 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:51:29,909 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:51:37,544 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:51:38,046 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:39,571 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:40,087 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:40,589 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:41,099 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:41,614 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:42,116 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:42,618 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:43,133 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:43,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:44,145 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:44,649 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:45,162 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:46,168 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:46,671 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:47,186 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:47,699 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:48,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:49,219 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:49,727 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:50,241 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:50,753 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:51:51,280 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "C:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2021-12-21 19:51:53,829 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:54,349 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:54,870 Socket timeout
+WARNING:game_controller:Socket timeout
+1:26,712 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Get_Up_From_Defence
+2021-12-21 19:51:29,642 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-21 19:51:36,722 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,726 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(637) - goalkeeper turn_To_Course(pi*2/3)
+2021-12-21 19:51:36,784 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,786 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,788 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,790 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,793 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,795 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,798 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,800 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,802 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,804 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,806 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,807 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,809 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,811 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,812 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:36,814 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(137) - FALLING!!!-1
+2021-12-21 19:51:38,000 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2021-12-21 19:51:51,185 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-21 19:51:52,414 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:PenaltyDefenceF

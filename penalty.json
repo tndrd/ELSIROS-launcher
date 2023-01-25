@@ -1,0 +1,17 @@
+{
+    "competition": "Penalty",
+    "repeats": 2,
+
+    "teams":
+    [
+        {
+            "name": "SAMPLE_TEAM", 
+            "path": "SAMPLE_TEAM/Init_params/strategy_data.json"
+        }
+    ],
+
+    "games":
+    [
+        ["SAMPLE_TEAM"] 
+    ]
+}

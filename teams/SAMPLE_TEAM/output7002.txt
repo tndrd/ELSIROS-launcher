@@ -1,0 +1,406 @@
+2021-12-21 19:46:52.509337
+2021-12-21 19:46:56,730 Socket timeout
+2021-12-21 19:46:57,250 Socket timeout
+2021-12-21 19:46:57,770 Socket timeout
+2021-12-21 19:46:58,285 Socket timeout
+2021-12-21 19:46:58,799 Socket timeout
+2021-12-21 19:46:59,811 Socket timeout
+2021-12-21 19:47:00,321 Socket timeout
+2021-12-21 19:47:00,829 Socket timeout
+2021-12-21 19:47:01,334 Socket timeout
+2021-12-21 19:47:02,349 Socket timeout
+2021-12-21 19:47:03,357 Socket timeout
+2021-12-21 19:47:03,870 Socket timeout
+2021-12-21 19:47:04,379 Socket timeout
+2021-12-21 19:47:04,895 Socket timeout
+2021-12-21 19:47:05,403 Socket timeout
+2021-12-21 19:47:06,415 Socket timeout
+2021-12-21 19:47:06,931 Socket timeout
+2021-12-21 19:47:07,436 Socket timeout
+2021-12-21 19:47:07,941 Socket timeout
+2021-12-21 19:47:08,457 Socket timeout
+2021-12-21 19:47:09,467 Socket timeout
+2021-12-21 19:47:09,975 Socket timeout
+2021-12-21 19:47:10,481 Socket timeout
+2021-12-21 19:47:10,992 Socket timeout
+2021-12-21 19:47:11,505 Socket timeout
+2021-12-21 19:47:12,508 Socket timeout
+2021-12-21 19:47:13,030 Socket timeout
+2021-12-21 19:47:13,531 Socket timeout
+2021-12-21 19:47:14,034 Socket timeout
+2021-12-21 19:47:15,560 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:16,066 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:16,578 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:17,090 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:17,605 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:18,116 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:18,630 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:19,139 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:19,648 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:20,152 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:21,157 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:21,670 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:47:31,308 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:32,328 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:32,834 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:33,336 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:33,841 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:34,354 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:34,870 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:37,414 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:47:37,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:39,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:39,956 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:40,460 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:40,979 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:41,480 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:41,990 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:42,501 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:43,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:44,018 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:44,530 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:45,041 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:46,059 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:47:53,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:54,713 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:55,220 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:55,733 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:56,242 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:56,745 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:57,257 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:57,761 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:58,766 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:59,273 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:47:59,779 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:00,284 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:01,296 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:18,610 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:48:31,771 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:32,780 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:33,289 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:33,791 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:34,297 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:34,805 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:35,315 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:35,819 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:36,335 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:36,840 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:37,353 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:37,860 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:38,373 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:48:38,879 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:49:16,635 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:49:17,149 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Stomach_N
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+INFO:__main__:FALLING!!!1
+2021-12-21 19:49:24,279 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:49:25,298 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:26,329 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:26,844 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:27,857 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:28,369 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:32,989 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:33,500 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:49:34,010 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:35,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:35,552 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:36,067 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:36,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:37,077 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:37,580 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:38,081 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:49:48,259 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:49,274 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:49,787 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:50,292 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:50,798 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:51,315 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:51,827 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:52,339 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:52,844 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:53,349 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:49:53,853 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:01,040 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-21 19:50:29,125 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:50:30,642 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:31,144 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:31,651 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:32,159 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:33,186 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:55,149 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:50:55,649 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:57,195 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:57,709 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:58,222 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:58,730 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:50:59,240 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:02,322 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:51:04,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:04,867 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:05,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:05,882 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:06,383 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:06,899 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:07,405 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:07,920 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:08,434 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:08,949 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:09,454 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:09,964 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:17,684 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:51:18,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:19,230 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:19,737 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:20,238 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:20,746 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:21,254 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:21,759 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:22,279 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:22,786 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:25,828 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:26,334 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:51:26,857 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:27,860 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:28,369 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:28,876 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:29,385 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:29,894 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:30,396 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:30,902 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:31,408 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:31,921 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-21 19:51:39,571 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:40,589 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:41,099 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:41,614 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:42,116 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:42,618 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:43,133 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:43,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:44,145 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:44,649 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:45,162 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:46,168 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:46,671 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:47,186 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:47,699 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:48,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:49,219 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:49,727 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-21 19:51:50,241 Socket timeout
+WARNING:game_controller:Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "C:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение

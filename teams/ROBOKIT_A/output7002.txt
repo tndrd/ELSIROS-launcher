@@ -1,0 +1,4003 @@
+2022-04-26 20:38:12.954083
+2022-04-26 20:38:18,252 Socket timeout
+2022-04-26 20:38:18,764 Socket timeout
+2022-04-26 20:38:19,279 Socket timeout
+2022-04-26 20:38:19,794 Socket timeout
+2022-04-26 20:38:20,308 Socket timeout
+2022-04-26 20:38:20,823 Socket timeout
+2022-04-26 20:38:21,337 Socket timeout
+2022-04-26 20:38:21,840 Socket timeout
+2022-04-26 20:38:22,343 Socket timeout
+2022-04-26 20:38:22,862 Socket timeout
+2022-04-26 20:38:23,382 Socket timeout
+2022-04-26 20:38:24,888 Socket timeout
+2022-04-26 20:38:25,401 Socket timeout
+2022-04-26 20:38:26,417 Socket timeout
+2022-04-26 20:38:26,920 Socket timeout
+2022-04-26 20:38:27,434 Socket timeout
+2022-04-26 20:38:27,941 Socket timeout
+2022-04-26 20:38:28,456 Socket timeout
+2022-04-26 20:38:28,961 Socket timeout
+2022-04-26 20:38:29,968 Socket timeout
+2022-04-26 20:38:30,471 Socket timeout
+2022-04-26 20:38:30,972 Socket timeout
+2022-04-26 20:38:31,487 Socket timeout
+2022-04-26 20:38:31,988 Socket timeout
+2022-04-26 20:38:32,491 Socket timeout
+2022-04-26 20:38:33,006 Socket timeout
+2022-04-26 20:38:34,012 Socket timeout
+2022-04-26 20:38:34,528 Socket timeout
+2022-04-26 20:38:35,042 Socket timeout
+2022-04-26 20:38:35,556 Socket timeout
+2022-04-26 20:38:36,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:37,090 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:37,606 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:38,121 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:38,635 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:40,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:41,170 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:41,685 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:42,200 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:42,714 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:---------------------------------------------------------------
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:38:52,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:54,464 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:55,472 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:55,977 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:56,492 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:56,996 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:57,511 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:58,015 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:58,517 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:59,022 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:38:59,527 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:00,043 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:00,557 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:01,060 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+2022-04-26 20:39:01,575 Socket timeout
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+WARNING:game_controller:Socket timeout
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.0,)
+2022-04-26 20:39:02,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:03,108 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:03,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:04,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:04,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:05,660 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:06,164 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:06,668 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:07,185 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:07,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:08,216 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:08,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:09,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:09,748 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:10,262 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:22,526 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:23,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:23,544 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:39:24,059 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:26,080 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:26,586 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:27,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:27,606 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:28,621 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:29,637 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:30,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:31,168 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:31,683 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:32,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:43,936 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:44,443 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:44,948 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:39:45,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:46,994 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:47,498 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:48,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:48,515 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:49,018 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:49,521 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:50,026 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:51,043 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:52,059 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:39:53,073 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:02,747 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:40:03,755 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:04,761 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:05,262 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:05,778 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:06,291 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:06,808 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:40:23,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:25,169 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:25,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:26,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:27,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:27,732 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:28,247 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:40:29,280 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:simulate motion slot:Get_Up_Left
+INFO:__main__:FALLING!!!2
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:40:59,903 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:00,417 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:01,432 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:01,947 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:02,452 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:02,965 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:03,466 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:03,981 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:04,485 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:04,991 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:05,997 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:41:31,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:32,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:33,043 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:33,557 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:35,075 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:40,672 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:41:41,188 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:42,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:43,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:44,262 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.175,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.175,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.175,)
+2022-04-26 20:41:44,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:45,278 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:45,793 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:46,308 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:46,810 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:47,325 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:41:47,840 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2022-04-26 20:41:54,466 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_Left
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+INFO:__main__:FALLING!!!2
+2022-04-26 20:42:08,262 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:42:08,777 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:10,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:11,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:12,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:12,845 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:13,851 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:14,356 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:31,761 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:42:32,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:33,308 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:33,821 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:34,337 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:35,855 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:36,872 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:42:47,089 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:48,106 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:48,618 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:49,122 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:50,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:51,153 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:51,668 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:52,184 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:53,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:54,214 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:42:54,746 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.3,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.3,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.3,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:43:07,935 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:08,449 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:08,951 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:09,465 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:43:21,182 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:21,685 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:22,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:22,715 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:23,731 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:43:34,401 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:35,418 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:35,933 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:37,451 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:38,465 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:38,966 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:39,984 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:43:56,263 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:57,294 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:57,809 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:58,325 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:59,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:43:59,848 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:00,353 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:00,857 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:01,372 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:44:06,966 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:07,482 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:08,513 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:09,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:09,531 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:10,035 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:10,537 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:11,040 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.8,)
+2022-04-26 20:44:19,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:20,188 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:44:20,694 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+2022-04-26 20:44:21,699 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:
+ Game Controller STATE_READY. Waiting for SET..
+2022-04-26 20:44:22,214 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:22,726 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:23,228 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:23,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:25,248 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:25,764 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:
+ Game Controller STATE_SET. Waiting for PLAYING..
+2022-04-26 20:44:26,772 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:27,287 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:27,791 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:28,293 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:28,808 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:29,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:29,829 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:30,334 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:30,848 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:31,349 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:start playing
+INFO:__main__:former_game_state == "STATE_SET"
+INFO:__main__:playing allowed
+INFO:__main__:current_game_state =STATE_PLAYING current_player_penalty =0
+INFO:__main__:former_game_state =STATE_SET former_player_penalty =0
+INFO:__main__:imu_activation
+2022-04-26 20:44:31,865 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:44:32,884 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:34,387 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:34,903 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:35,416 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:35,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:36,921 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:37,426 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:37,930 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:38,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:39,448 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:---------------------------------------------------------------
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:
+ Game Controller STATE_INITIAL. Waiting for READY..
+2022-04-26 20:44:49,592 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:50,094 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:51,109 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:52,112 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:52,627 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:53,129 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:53,645 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:54,164 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:
+ Game Controller STATE_READY. Waiting for SET..
+2022-04-26 20:44:54,682 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:55,197 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:55,712 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:56,227 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:56,730 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:57,747 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:58,262 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:59,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:44:59,792 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:
+ Game Controller STATE_SET. Waiting for PLAYING..
+2022-04-26 20:45:00,797 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:01,311 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:01,827 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:02,339 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:03,856 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:04,369 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:04,884 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:05,398 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:start playing
+INFO:__main__:former_game_state == "STATE_SET"
+INFO:__main__:playing allowed
+INFO:__main__:current_game_state =STATE_PLAYING current_player_penalty =0
+INFO:__main__:former_game_state =STATE_SET former_player_penalty =0
+INFO:__main__:imu_activation
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:45:06,904 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:08,435 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:08,949 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:09,465 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:10,481 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:10,997 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:11,513 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:12,027 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:12,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:13,059 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:14,074 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:---------------------------------------------------------------
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+2022-04-26 20:45:29,954 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:30,471 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:30,977 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:45:31,481 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:34,030 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:34,537 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:35,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:35,551 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:36,056 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:36,558 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:38,066 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:38,569 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:39,074 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:39,577 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:40,089 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:42,107 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:42,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:43,127 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:45:52,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:53,261 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:53,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:54,276 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:54,793 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:55,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:55,810 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:56,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:57,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:45:57,855 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:46:14,109 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:15,106 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:15,621 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:16,124 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:16,630 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:17,134 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:17,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:18,142 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:18,647 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:19,667 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:46:36,464 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:37,483 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:37,987 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:38,489 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:40,020 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:45,107 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:46:45,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:47,668 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:48,183 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:48,699 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:49,200 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:50,206 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.2,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.2,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.2,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:46:58,325 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:59,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:46:59,871 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:00,386 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:01,402 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:02,916 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:03,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:03,935 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:04,449 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:04,965 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:05,480 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.2,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.2,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.2,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:47:19,278 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:20,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:20,783 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:21,790 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:22,297 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:22,801 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:25,326 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:47:27,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:27,872 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:28,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:29,402 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:30,419 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.225,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.225,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (0.225,)
+2022-04-26 20:47:38,092 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:47:38,606 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:40,611 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:41,122 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:41,627 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:42,130 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:42,634 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+2022-04-26 20:47:43,653 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:47:53,310 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:53,825 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:54,341 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:54,855 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:55,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:55,871 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:56,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:57,401 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:57,907 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:58,414 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:47:59,434 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:48:14,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:15,749 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:16,262 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:16,778 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:17,792 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:18,308 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:18,823 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:19,841 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:20,355 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:21,372 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:48:43,371 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:44,387 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:45,903 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:46,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:46,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:51,512 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:48:53,534 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:54,041 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:54,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:55,551 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:56,057 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:56,572 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:57,075 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:48:58,090 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.375,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.375,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.375,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:49:07,725 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:08,227 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:08,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:09,236 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:09,739 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:10,242 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:12,780 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:49:13,293 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:15,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:15,855 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:16,370 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:17,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:18,403 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.375,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.375,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.375,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:49:27,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:29,059 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:29,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:30,078 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:30,583 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:31,085 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:31,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:33,121 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:
+ Game Controller STATE_READY. Waiting for SET..
+2022-04-26 20:49:40,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:41,262 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:42,264 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:42,768 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:43,283 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:44,299 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:
+ Game Controller STATE_SET. Waiting for PLAYING..
+2022-04-26 20:49:45,308 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:45,821 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:46,335 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:46,850 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:47,355 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:48,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:48,885 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:49,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:50,403 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:start playing
+INFO:__main__:former_game_state == "STATE_SET"
+INFO:__main__:playing allowed
+INFO:__main__:current_game_state =STATE_PLAYING current_player_penalty =0
+INFO:__main__:former_game_state =STATE_SET former_player_penalty =0
+INFO:__main__:imu_activation
+2022-04-26 20:49:50,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:51,432 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:49:51,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:52,949 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:53,463 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:54,968 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:55,475 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:55,979 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:56,495 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:56,998 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:57,514 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:58,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:58,544 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:49:59,047 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:---------------------------------------------------------------
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\ROBOKIT_A\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\ROBOKIT_A\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\ROBOKIT_A\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:50:09,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:10,779 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:11,294 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:11,798 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:12,304 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:12,809 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:13,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:13,828 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:14,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:14,856 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:15,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:15,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:16,402 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:16,903 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:17,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:18,450 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:50:42,559 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:44,105 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:44,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:45,638 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:46,154 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:46,668 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:48,183 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:48,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:49,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:49,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:50,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:50,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:51,279 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:51,794 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:52,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:52,825 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:53,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:54,356 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:50:55,371 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:51:11,621 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:13,153 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:13,669 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:14,685 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:15,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:16,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:16,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:17,222 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:51:33,451 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+2022-04-26 20:51:33,957 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2022-04-26 20:51:34,463 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:34,966 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:35,468 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:35,982 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:36,497 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:36,998 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:37,512 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:38,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:38,529 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:39,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:39,544 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:40,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:40,560 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:41,064 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:41,569 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:42,074 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:42,589 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:43,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:43,604 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:44,106 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:44,607 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:45,107 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:45,621 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:46,121 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:46,625 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:47,129 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:47,635 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:48,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:48,638 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:49,139 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:49,654 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:50,169 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:50,671 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:51,172 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:51,676 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:52,182 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:52,689 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:53,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:53,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:54,213 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:54,715 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:55,230 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:55,732 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:56,237 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:56,745 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:57,248 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:57,754 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:58,260 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:58,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:59,263 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:51:59,778 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:00,280 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:00,788 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:01,292 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:01,797 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:02,303 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:02,808 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:03,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:03,823 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:04,325 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:04,827 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:05,329 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:05,834 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:06,348 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:06,852 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:07,355 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:07,856 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:08,356 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:08,869 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:09,371 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:09,877 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:10,383 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:10,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:11,403 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:11,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:12,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:12,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:13,435 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:13,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:14,465 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:14,980 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:15,481 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:15,995 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:16,499 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:17,006 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:17,509 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:18,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:18,514 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:19,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:19,530 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:20,038 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:20,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:21,058 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:21,559 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:22,073 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:22,580 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:23,088 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:23,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:24,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:24,592 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:25,103 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:25,606 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:26,120 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:26,623 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:27,138 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:27,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:28,154 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:28,669 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:29,184 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:29,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:30,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:30,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:31,203 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:31,706 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:32,208 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:32,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:33,216 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:33,730 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:34,232 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:34,747 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:35,247 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:35,761 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:36,264 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:36,771 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:37,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:37,777 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:38,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:38,778 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:39,279 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:39,792 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:40,294 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:40,808 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:41,314 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:41,819 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:42,325 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:42,825 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:43,326 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:43,832 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:44,337 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:44,843 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:45,349 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:45,855 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:46,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:46,858 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:47,360 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:47,867 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:48,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:48,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:49,388 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:49,902 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:50,404 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:50,905 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:51,411 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:51,917 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:52,425 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:52,933 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:53,448 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:53,949 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:54,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:54,965 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:55,480 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:55,982 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:56,484 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:56,987 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:57,493 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:57,998 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:58,513 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:59,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:52:59,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:00,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:00,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:01,029 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:01,530 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:02,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:02,545 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:03,060 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:03,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:04,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:04,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:05,105 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:05,607 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:06,113 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:06,617 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:07,122 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:07,623 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:08,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:08,652 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:09,165 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:09,669 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:10,170 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:10,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:11,185 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:11,687 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:12,195 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:12,698 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:13,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:13,699 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:14,200 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:14,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:15,213 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:15,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:16,230 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:16,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:17,232 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:17,747 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:18,251 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:18,758 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:19,263 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:19,766 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:20,267 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:20,780 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:21,294 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:21,799 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:22,307 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:22,808 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:23,312 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:23,825 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:24,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:24,845 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:25,351 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:25,866 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:26,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:26,874 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:27,382 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:27,888 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:28,392 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:28,895 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:29,403 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:29,909 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:30,412 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:30,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:31,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:31,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:32,434 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:32,935 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:33,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:33,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:34,453 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:34,965 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:35,468 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:35,982 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:36,497 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:37,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:37,511 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:38,015 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:38,522 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:39,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:39,529 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:40,030 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:40,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:41,059 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:41,573 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:42,075 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:42,589 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:43,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:43,606 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:44,122 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:44,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:45,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:45,638 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:46,153 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:46,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:47,168 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:47,682 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:48,185 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:48,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:49,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:49,715 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:50,220 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:50,722 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:51,228 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:51,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:52,232 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:52,732 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:53,238 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:53,742 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:54,244 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:54,748 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:55,248 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:55,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:56,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:56,792 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:57,293 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:57,794 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:58,297 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:58,801 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:59,305 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:53:59,809 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:00,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:00,810 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:01,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:01,825 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:02,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:02,854 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:03,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:03,871 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:04,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:04,886 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:05,388 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:05,900 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:06,406 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:06,911 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:07,416 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:07,920 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:08,434 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:08,948 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:09,449 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:09,964 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:10,466 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:10,966 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:11,471 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:11,975 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:12,480 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:12,984 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:13,489 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:13,994 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:14,496 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:14,997 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:15,512 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:16,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:16,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:17,028 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:17,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:18,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:18,550 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:19,054 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:19,560 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:20,064 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:20,569 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:21,072 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:21,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:22,075 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:22,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:23,092 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:23,605 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:24,108 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:24,611 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:25,116 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:25,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:26,136 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:26,638 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:27,141 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:27,650 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:28,151 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:28,657 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:29,171 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:29,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:30,186 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:30,701 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:31,216 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:31,730 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:32,231 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:32,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:33,244 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:33,746 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:34,260 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:34,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:35,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:35,792 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:36,293 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:36,796 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:37,301 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:37,806 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:38,308 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:38,810 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:39,317 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:39,820 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:40,326 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:40,838 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:41,341 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:41,841 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:42,356 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:42,857 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:43,371 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:43,872 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:44,378 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:44,879 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:45,384 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:45,890 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:46,404 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:46,919 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:47,433 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:47,937 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:48,439 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:48,951 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:49,454 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:49,957 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:50,463 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:50,967 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:51,473 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:51,979 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:52,481 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:52,994 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:53,499 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:54,006 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:54,511 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:55,015 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:55,529 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:56,033 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:56,539 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:57,045 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:57,560 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:58,074 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:58,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:59,090 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:54:59,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:00,106 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:00,621 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:01,122 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:01,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:02,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:02,637 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:03,138 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:03,652 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:04,154 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:04,669 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:05,184 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:05,685 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:06,198 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:06,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:07,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:07,730 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:08,231 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:08,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:09,231 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:09,746 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:10,261 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:10,762 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:11,277 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:11,778 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:12,279 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:12,791 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:13,294 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:13,808 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:14,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:14,825 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:15,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:15,855 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:16,355 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:16,857 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:17,369 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:17,884 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:18,387 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:18,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:19,402 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:19,903 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:20,416 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:20,917 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:21,418 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:21,919 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:22,434 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:22,936 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:23,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:23,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:24,464 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:24,979 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:25,479 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:25,994 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:26,496 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:26,997 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:27,509 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:28,022 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:28,523 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:29,036 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:29,538 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:30,039 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:30,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:31,058 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:31,560 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:32,073 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:32,590 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:33,090 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:33,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:34,093 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:34,606 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:35,108 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:35,621 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:36,135 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:36,637 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:37,138 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:37,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:38,154 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:38,654 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:39,154 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:39,668 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:40,184 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:40,685 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:41,200 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:41,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:42,216 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:42,730 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:43,231 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:43,732 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:44,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:44,746 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:45,247 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:45,760 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:46,263 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:46,763 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:47,278 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:47,792 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:48,293 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:48,794 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:49,308 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:49,809 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:50,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:50,824 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:51,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:51,825 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:52,339 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:52,853 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:53,367 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:53,867 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:54,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:54,887 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:55,388 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:55,902 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:56,403 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:56,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:57,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:57,919 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:58,432 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:58,933 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:59,447 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:55:59,961 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:00,475 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:00,980 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:01,483 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:01,997 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:02,497 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:02,997 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:03,512 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:04,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:04,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:05,043 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:05,544 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:06,044 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:06,559 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:07,073 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:07,574 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:08,075 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:08,575 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:09,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:09,605 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:10,120 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:10,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:11,134 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:11,637 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:12,138 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:12,652 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:13,166 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:13,667 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:14,182 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:14,683 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:15,184 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:15,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:16,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:16,701 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:17,202 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:17,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:18,231 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:18,746 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:19,247 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:19,762 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:20,276 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:20,779 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:21,293 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:21,807 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:22,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:22,823 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:23,325 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:23,840 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:24,340 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:24,840 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:25,341 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:25,857 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:26,371 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:26,873 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:27,388 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:27,903 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:28,417 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:28,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:29,418 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:29,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:30,434 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:30,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:31,465 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:31,970 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:32,484 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:32,985 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:33,488 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:33,993 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:34,497 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:34,997 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:35,510 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:36,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:36,512 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:37,012 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:37,526 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:38,029 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:38,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:39,057 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:39,561 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:40,067 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:40,572 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:41,076 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:41,590 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:42,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:42,605 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:43,107 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:43,607 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:44,120 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:44,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:45,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:45,639 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:46,153 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:46,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:47,153 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:47,668 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:48,168 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:48,669 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:49,184 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:49,699 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:50,201 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:50,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:51,231 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:51,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:52,243 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:52,745 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:53,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:53,746 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:54,261 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:54,762 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:55,276 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:55,777 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:56,279 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:56,789 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:57,289 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:57,794 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:58,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:58,809 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:59,310 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:56:59,824 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:00,329 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:00,835 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:01,341 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:01,847 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:02,357 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:02,871 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:03,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:03,885 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:04,388 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:04,896 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:05,398 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:05,904 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:06,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:06,931 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:07,434 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:07,935 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:08,446 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:08,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:09,464 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:09,978 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:10,479 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:10,981 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:11,496 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:12,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:12,512 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:13,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:13,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:14,042 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:14,555 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:15,068 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:15,573 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:16,073 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:16,576 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:17,090 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:17,605 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:18,119 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:18,620 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:19,121 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:19,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:20,137 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:20,638 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:21,138 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:21,651 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:22,166 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:22,679 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:23,183 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:23,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:24,199 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:24,700 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:25,214 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:25,715 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:26,216 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:26,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:27,230 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:27,731 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:28,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:28,746 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:29,260 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:29,762 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:30,276 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:30,791 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:31,294 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:31,795 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:32,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:32,811 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:33,313 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:33,820 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:34,326 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:34,839 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:35,355 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:35,869 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:36,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:36,872 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:37,387 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:37,901 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:38,416 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:38,919 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:39,432 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:39,935 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:40,448 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:40,949 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:41,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:41,964 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:42,465 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:42,980 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:43,480 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:43,981 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:44,481 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:44,982 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:45,494 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:45,997 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:46,512 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:47,013 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:47,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:48,042 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:48,544 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:49,059 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:49,560 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:50,075 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:50,588 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:51,100 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:51,601 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:52,106 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:52,621 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:53,122 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:53,636 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:54,151 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:54,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:55,153 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:55,668 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:56,168 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:56,674 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:57,179 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:57,683 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:58,197 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:58,699 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:59,213 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:57:59,717 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:00,231 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:00,732 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:01,246 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:01,761 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:02,262 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:02,762 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:03,279 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:03,779 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:04,294 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:04,808 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:05,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:05,824 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:06,325 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:06,839 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:07,341 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:07,856 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:08,368 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:08,869 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:09,383 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:09,888 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:10,402 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:10,915 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:11,417 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:11,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:12,420 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:12,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:13,449 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:13,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:14,451 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:14,966 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:15,481 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:15,996 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:16,497 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:17,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:17,515 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:18,027 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:18,529 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:19,043 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:19,546 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:20,057 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:20,573 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:21,088 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:21,591 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:22,105 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:22,606 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:23,120 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:23,634 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:24,138 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:24,652 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:25,152 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:25,653 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:26,168 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:26,669 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:27,184 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:27,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:28,200 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:28,714 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:29,215 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:29,716 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:30,232 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:30,733 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:31,247 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:31,748 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:32,263 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:32,777 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:33,278 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:33,792 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:34,293 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:34,807 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:35,309 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:35,809 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:36,324 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:36,839 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:37,353 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:37,857 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:38,363 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:38,877 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:39,380 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:39,886 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:40,388 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:40,903 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:41,404 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:41,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:42,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:42,932 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:43,433 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:43,934 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:44,436 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:44,937 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:45,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2022-04-26 20:58:45,950 Socket timeout
+WARNING:game_controller:Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HiTF\AppData\Local\Programs\Python\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run

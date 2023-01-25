@@ -1,0 +1,146 @@
+2021-12-19 19:57:01.832462
+2021-12-19 19:58:23,140 Socket timeout
+2021-12-19 19:58:24,653 Socket timeout
+2021-12-19 19:58:27,676 Socket timeout
+2021-12-19 19:58:32,712 Socket timeout
+2021-12-19 19:58:37,239 Socket timeout
+2021-12-19 19:58:40,270 Socket timeout
+2021-12-19 19:58:54,841 Socket timeout
+2021-12-19 19:59:05,400 Socket timeout
+2021-12-19 19:59:31,541 Socket timeout
+2021-12-19 19:59:38,582 Socket timeout
+2021-12-19 19:59:49,630 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 19:59:53,654 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 19:59:55,661 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 19:59:58,173 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:21,776 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:23,783 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:32,814 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:45,375 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:48,389 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:51,402 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:54,918 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:58,430 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:00,444 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:10,990 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:16,011 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:22,033 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:23,542 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:25,552 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:36,101 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:42,630 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:01:54,181 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:05,233 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:09,758 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:12,772 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:23,320 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:30,858 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:48,439 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:49,950 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:50,454 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:57,484 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:01,009 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:02,016 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:04,528 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:07,040 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:PanaltyDefenceReady_Fast
+INFO:__main__:simulate motion slot:PenaltyDefenceF
+2021-12-19 20:03:22,092 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Get_Up_From_Defence
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:goalkeeper turn_To_Course(pi*2/3)
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+2021-12-19 20:04:08,286 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:goalkeeper far_distance_plan_approach
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:simulate motion slot:Get_Up_Right
+INFO:__main__:FALLING!!!-2
+INFO:__main__:FALLING!!!-2
+INFO:__main__:FALLING!!!-2
+INFO:__main__:FALLING!!!-2
+INFO:__main__:FALLING!!!-2
+INFO:__main__:FALLING!!!-2
+INFO:__main__:FALLING!!!-2
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:goalkeeper far_distance_plan_approach
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "C:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+- __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:04:05,676 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:04:05,680 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:04:05,683 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:04:09,869 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Initial_Pose
+2021-12-19 20:04:15,495 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(695) - goalkeeper far_distance_plan_approach
+2021-12-19 20:05:51,996 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-19 20:06:07,598 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Get_Up_Right
+2021-12-19 20:06:17,834 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-2
+2021-12-19 20:06:17,840 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-2
+2021-12-19 20:06:17,846 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-2
+2021-12-19 20:06:17,855 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-2
+2021-12-19 20:06:17,862 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-2
+2021-12-19 20:06:17,870 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-2
+2021-12-19 20:06:17,875 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-2
+2021-12-19 20:06:19,710 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Initial_Pose
+2021-12-19 20:06:30,984 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(695) - goalkeeper far_distance_plan_approach

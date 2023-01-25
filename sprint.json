@@ -1,0 +1,18 @@
+{
+    "competition": "Sprint",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "SAMPLE_TEAM", 
+            "path": "SAMPLE_TEAM/Init_params/Sprint_params.json"
+        }
+
+    ],
+
+    "games":
+    [
+        ["SAMPLE_TEAM"] 
+    ]
+}

@@ -1,0 +1,58 @@
+2021-12-19 20:19:48.131996
+2021-12-19 20:20:12,574 Socket timeout
+2021-12-19 20:20:13,576 Socket timeout
+2021-12-19 20:20:15,080 Socket timeout
+2021-12-19 20:20:17,585 Socket timeout
+2021-12-19 20:20:21,591 Socket timeout
+2021-12-19 20:20:46,627 Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "C:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+[INFO] - __main__ - (launcher_pb.py).player_super_cycle(134) - 
+ Game Controller STATE_SET. Waiting for PLAYING..
+2021-12-19 20:20:23,185 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(148) - start playing
+2021-12-19 20:20:23,186 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(152) - former_game_state == "STATE_SET"
+2021-12-19 20:20:23,188 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(160) - playing allowed
+2021-12-19 20:20:23,190 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(203) - current_game_state =STATE_PLAYING current_player_penalty =0
+2021-12-19 20:20:23,193 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(204) - former_game_state =STATE_SET former_player_penalty =0
+2021-12-19 20:20:23,298 - [INFO] - __main__ - (class_Motion_Webots_PB.py).imu_activation(94) - imu_activation
+2021-12-19 20:20:30,177 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Initial_Pose
+2021-12-19 20:20:48,311 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:PanaltyDefenceReady_Fast
+2021-12-19 20:20:49,442 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:PenaltyDefenceF
+2021-12-19 20:20:53,523 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Get_Up_From_Defence
+2021-12-19 20:20:55,798 - [INFO] - __main__ - (strategy.py).scenario_B1(200) - the robot moves to the left 4 steps
+2021-12-19 20:20:56,388 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Soccer_Get_UP_Face_Up
+2021-12-19 20:21:03,396 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,397 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,399 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,400 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,401 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,403 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,404 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,406 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,407 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,408 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,410 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,412 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,417 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,418 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,420 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,421 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,423 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,424 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,426 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,427 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,429 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,460 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,462 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:03,464 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(139) - FALLING!!!-1
+2021-12-19 20:21:06,812 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(182) - simulate motion slot:Initial_Pose
+2021-12-19 20:21:10,084 - [INFO] - __main__ - (strategy.py).scenario_B1(200) - the robot moves to the left 4 steps

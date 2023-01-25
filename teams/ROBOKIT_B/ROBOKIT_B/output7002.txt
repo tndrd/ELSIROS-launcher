@@ -1,0 +1,247 @@
+2021-12-19 19:57:01.841438
+2021-12-19 19:58:23,140 Socket timeout
+2021-12-19 19:58:24,653 Socket timeout
+2021-12-19 19:58:26,166 Socket timeout
+2021-12-19 19:58:32,711 Socket timeout
+2021-12-19 19:58:37,240 Socket timeout
+2021-12-19 19:58:40,269 Socket timeout
+2021-12-19 19:58:50,318 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 19:58:54,841 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:---------------------------------------------------------------
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Program Files\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Program Files\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Program Files\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 520, in forward_main_cycle
+    self.logger.info("direction first ", self.f.direction_To_Guest)
+Message: 'direction first '
+Arguments: (0.0,)
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 19:59:23,998 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 19:59:31,541 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 20:00:32,814 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:34,322 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:00:45,375 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Stomach_N
+INFO:__main__:FALLING!!!1
+INFO:__main__:simulate motion slot:Get_Up_Right
+INFO:__main__:FALLING!!!-2
+INFO:__main__:simulate motion slot:Soccer_Get_UP_Face_Up
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:FALLING!!!-1
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 20:02:05,239 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 20:02:57,485 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:02:57,988 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 20:03:18,582 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:22,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:23,096 Socket timeout
+WARNING:game_controller:Socket timeout
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Program Files\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.175,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Program Files\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.175,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Program Files\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\Program Files\Python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\main_pb.py", line 124, in main_procedure
+    player_super_cycle(falling, team_id, robot_color, robot_number, SIMULATION, current_work_directory, robot, pause, logger)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\launcher_pb.py", line 216, in player_super_cycle
+    player.play_game()
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 402, in play_game
+    if self.role == 'forward': self.forward_main_cycle(self.second_pressed_button)
+  File "C:\Elsiros\controllers\SAMPLE_TEAM\Soccer\strategy.py", line 581, in forward_main_cycle
+    self.logger.info("---------------", self.f.direction_To_Guest)
+Message: '---------------'
+Arguments: (-0.175,)
+2021-12-19 20:03:47,197 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:49,706 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:50,712 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:51,717 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:03:58,245 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 20:04:32,389 Socket timeout
+WARNING:game_controller:Socket timeout
+2021-12-19 20:04:32,895 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 20:06:25,414 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2021-12-19 20:06:35,954 Socket timeout
+WARNING:game_controller:Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "C:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение

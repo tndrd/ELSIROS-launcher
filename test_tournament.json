@@ -1,0 +1,42 @@
+{
+    "competition": "PenaltyOld",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "ZUBRoid", 
+            "path": "ZUBRoid/main_pb.py"
+        },
+        {
+            "name": "Robokit B", 
+            "path": "ROBOKIT_B/main_pb.py"
+        },
+        {
+            "name": "Star", 
+            "path": "Star/main_pb.py"
+        },
+        {
+            "name": "Robokit A", 
+            "path": "ROBOKIT_A/main_pb.py"
+        },
+        {
+            "name": "Robokit C", 
+            "path": "ROBOKIT_C/main_pb.py"
+        },
+        {
+            "name": "Baumek", 
+            "path": "Baumek/main_pb.py"
+        },
+        {
+            "name": "Robochamp", 
+            "path": "Robochamp/main_pb.py"
+        }
+
+    ],
+
+    "games":
+    [
+        ["ZUBRoid", "Robokit B"]
+    ]
+}

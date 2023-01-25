@@ -1,0 +1,18 @@
+{
+    "competition": "Marathon",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "SAMPLE_TEAM", 
+            "path": "SAMPLE_TEAM/Init_params/Marathon_params.json"
+        }
+
+    ],
+
+    "games":
+    [
+        ["SAMPLE_TEAM"] 
+    ]
+}
