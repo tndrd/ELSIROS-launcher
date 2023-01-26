@@ -15,6 +15,7 @@ class TournamentLauncher:
     self.team_IDs = dict()
     self.description_path = description_path
     self.teams_path = teams_path
+    self.description = None
     self.repeats = None
     self.compt_t = None
     self._load()
@@ -32,7 +33,10 @@ class TournamentLauncher:
       return conn
 
   def _readloop(self, conn, competition):
+      FINISH_PHRASE = "READY TO FINISH"
+      
       log = ""
+      finish_data = None
       print("Waiting for game to finish...")
       while True:
         try:
@@ -43,6 +47,10 @@ class TournamentLauncher:
           res, finish_data = competition.check_finish(log)
           if res:
             print(f"Finished with {finish_data}")
+            print("Waiting for ELSIROS clean exit...")
+          
+          if log == FINISH_PHRASE:
+            print("All done")
             return finish_data
           
           log = ""
@@ -66,10 +74,11 @@ class TournamentLauncher:
     
   def _load_games(self):
     with open(self.description_path) as f:
-      description = json.load(f)
-      self.compt_t = self._competition_type(description["competition"])
-      self.repeats = int(description["repeats"])
-      for game_description in description["games"]:
+      self.description = json.load(f)
+      
+      self.compt_t = self._competition_type(self.description["competition"])
+      self.repeats = int(self.description["repeats"])
+      for game_description in self.description["games"]:
         teams = [self._get_team(team_name) for team_name in game_description]
         self.games.append(self.compt_t(teams))
 
@@ -78,20 +87,34 @@ class TournamentLauncher:
     self._load_games()
       
   def launch(self):
+    records = []
     for game in self.games:
       print("------------------------------")
       print(f"Launching teams: {game.teams} ({self.repeats} times)")
+      record = dict()
+      record["discipline"] = self.description["competition"] 
+      record["teams"] = game.teams
+      record["results"] = []
+      record["weights"] = []
+
       for i in range(self.repeats):
 
-        proc = game.launch()
+        proc = game.launch(str(i+1))
         conn = self._bind_socket()
         
-        self._readloop(conn, game)
-        print("Terminating ELSIROS")
+        record["weights"] = game.get_teams_weights()
+
+        result = self._readloop(conn, game)
+        record["results"].append(result)
+        print("Terminating ELSIROS...")
         proc.terminate()
         conn.close()
         print("------------------------------")
-        sleep(2)
+        sleep(5)
+      
+      records.append(record)
+
+    return records
 
   def _competition_type(self, name):
     return COMPETITION_NAMES[name]
@@ -104,5 +127,8 @@ if __name__ == "__main__":
   sprint = "sprint.json"
 
   teams_path = "teams/"
-  launcher = TournamentLauncher(marathon, teams_path)
-  launcher.launch()
+  launcher = TournamentLauncher(penalty, teams_path)
+  results = launcher.launch()
+
+  with open("results.json", "w") as f:
+    json.dump(results, f, indent=4)
