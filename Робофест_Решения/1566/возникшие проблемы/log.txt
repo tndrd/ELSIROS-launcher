@@ -1,0 +1,451 @@
+Info: Spawned RED_PLAYER_1 Robokit1 on port 7001 at borderStartingPose: translation (0.9 -1.3 0.3), rotation (0 0 1 1.571592653589793).
+Info: Spawned RED_PLAYER_2 Robokit1 on port 7002 at borderStartingPose: translation (0.9 1.3 0.3), rotation (0 0 1 4.711592653589793).
+Info: Spawned BLUE_PLAYER_1 Robokit1 on port 7021 at borderStartingPose: translation (-0.9 -1.3 0.3), rotation (0 0 1 1.57).
+Info: Spawned BLUE_PLAYER_2 Robokit1 on port 7022 at borderStartingPose: translation (-0.9 1.3 0.3), rotation (0 0 1 -1.57).
+Info: Killing all Java instances
+Info: Launching GameController
+Info: Connecting to GameControllerSimulator at localhost:8750.
+Warning: Could not connect to GameController at localhost:8750: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. Retrying (1/10)...
+Warning: Could not connect to GameController at localhost:8750: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. Retrying (2/10)...
+Warning: Could not connect to GameController at localhost:8750: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. Retrying (3/10)...
+Info: Connected to GameControllerSimulator at localhost:8750.
+Info: Game type is PENALTY.
+Info: Red team is "Red Team", playing on right side.
+Info: Blue team is "Blue Team", playing on left side.
+Info: Sending 1:SIDE_LEFT:62 to GameController.
+Info: Waiting for GameController to answer to 1:SIDE_LEFT:62.
+Info: Waiting for GameController to answer to 1:SIDE_LEFT:62.
+Info: New state received from GameController: STATE_INITIAL.
+Info: State has succesfully changed to INITIAL
+Info: New secondary state received from GameController: STATE_PENALTYSHOOT, phase 0.
+Info: Blue team will start the penalty shoot-out.
+Info: Penalty start: Waiting 5 seconds (real-time) before going to SET
+Info: Sending 4:KICKOFF:62 to GameController.
+Info: Waiting for GameController to answer to 4:KICKOFF:62.
+Info: Waiting for GameController to answer to 4:KICKOFF:62.
+Info: simulationGetMode=1
+Info: Entering INITIAL, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Red player 1 reset to borderStartingPose: translation (0.9 -1.3 0.3), rotation (0 0 1 1.571592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to borderStartingPose: translation (0.9 1.3 0.3), rotation (0 0 1 4.711592653589793).
+Info: Disabling actuators of red player 2.
+Info: Blue player 1 reset to borderStartingPose: translation (-0.9 -1.3 0.3), rotation (0 0 1 1.57).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to borderStartingPose: translation (-0.9 1.3 0.3), rotation (0 0 1 -1.57).
+Info: Disabling actuators of blue player 2.
+Info: Moved ball out of the field temporarily
+Info: Enabling actuators of red player 1.
+Info: Enabling actuators of red player 2.
+Info: Enabling actuators of blue player 1.
+Info: Enabling actuators of blue player 2.
+Info: Real-time to wait in initial elasped in penalty, moving to SET
+Info: game.wait_for_state=SET
+Info: Sending 879:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 879:STATE:SET.
+Info: Waiting for GameController to answer to 879:STATE:SET.
+Info: Waiting for GameController to answer to 879:STATE:SET.
+Info: Waiting for GameController to answer to 879:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 1/10
+Info: Blue player 1 reset to borderStartingPose: translation (-0.9 -1.3 0.3), rotation (0 0 1 1.57).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to shootoutStartingPose: translation (0.2 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 2.
+Info: Red player 1 reset to goalKeeperStartingPose: translation (1.68 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to borderStartingPose: translation (0.9 1.3 0.3), rotation (0 0 1 4.711592653589793).
+Info: Disabling actuators of red player 2.
+Info: Ball respawned at 0.9 0 0.04.
+Info: Enabling actuators of red player 1.
+Info: Enabling actuators of blue player 2.
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 1763:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 1763:STATE:PLAY.
+Info: Waiting for GameController to answer to 1763:STATE:PLAY.
+Info: Waiting for GameController to answer to 1763:STATE:PLAY.
+Info: Waiting for GameController to answer to 1763:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.788 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 54
+Info: STATUS: penalty shoot-out 1/10
+Info: STATUS: Avg speed factor: 0.887 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 36
+Info: STATUS: penalty shoot-out 1/10
+Info: STATUS: Avg speed factor: 0.855 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 19
+Info: STATUS: penalty shoot-out 1/10
+Info: STATUS: Avg speed factor: 0.907 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 1
+Info: STATUS: penalty shoot-out 1/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 13821:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 13821:STATE:FINISH.
+Info: Waiting for GameController to answer to 13821:STATE:FINISH.
+Info: Waiting for GameController to answer to 13821:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 2/10
+Info: game.wait_for_state=SET
+Info: Sending 13826:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 13826:STATE:SET.
+Info: Waiting for GameController to answer to 13826:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 2/10
+Info: Red player 1 reset to borderStartingPose: translation (0.9 -1.3 0.3), rotation (0 0 1 1.571592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to shootoutStartingPose: translation (-0.2 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 2.
+Info: Blue player 1 reset to goalKeeperStartingPose: translation (-1.68 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to borderStartingPose: translation (-0.9 1.3 0.3), rotation (0 0 1 -1.57).
+Info: Disabling actuators of blue player 2.
+Info: Ball respawned at -0.9 0 0.04.
+Info: Enabling actuators of red player 2.
+Info: Enabling actuators of blue player 1.
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 14720:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 14720:STATE:PLAY.
+Info: Waiting for GameController to answer to 14720:STATE:PLAY.
+Info: Waiting for GameController to answer to 14720:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.794 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 50
+Info: STATUS: penalty shoot-out 2/10
+Info: STATUS: Avg speed factor: 0.890 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 32
+Info: STATUS: penalty shoot-out 2/10
+Info: STATUS: Avg speed factor: 0.908 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 13
+Info: STATUS: penalty shoot-out 2/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 26755:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 26755:STATE:FINISH.
+Info: Waiting for GameController to answer to 26755:STATE:FINISH.
+Info: Waiting for GameController to answer to 26755:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 3/10
+Info: game.wait_for_state=SET
+Info: Sending 26760:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 26760:STATE:SET.
+Info: Waiting for GameController to answer to 26760:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 3/10
+Info: Blue player 1 reset to borderStartingPose: translation (-0.9 -1.3 0.3), rotation (0 0 1 1.57).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to shootoutStartingPose: translation (0.2 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 2.
+Info: Red player 1 reset to goalKeeperStartingPose: translation (1.68 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to borderStartingPose: translation (0.9 1.3 0.3), rotation (0 0 1 4.711592653589793).
+Info: Disabling actuators of red player 2.
+Info: Ball respawned at 0.9 0 0.04.
+Info: Enabling actuators of red player 1.
+Info: Enabling actuators of blue player 2.
+Info: STATUS: Avg speed factor: 0.843 (over last 20.01 seconds)
+Info: STATUS: state: STATE_SET, remaining time: 60
+Info: STATUS: penalty shoot-out 3/10
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 27649:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 27649:STATE:PLAY.
+Info: Waiting for GameController to answer to 27649:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.624 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 49
+Info: STATUS: penalty shoot-out 3/10
+Info: STATUS: Avg speed factor: 0.582 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 37
+Info: STATUS: penalty shoot-out 3/10
+Info: STATUS: Avg speed factor: 0.911 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 19
+Info: STATUS: penalty shoot-out 3/10
+Info: STATUS: Avg speed factor: 0.898 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 1
+Info: STATUS: penalty shoot-out 3/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 39685:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 39685:STATE:FINISH.
+Info: Waiting for GameController to answer to 39685:STATE:FINISH.
+Info: Waiting for GameController to answer to 39685:STATE:FINISH.
+Info: Waiting for GameController to answer to 39685:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 4/10
+Info: game.wait_for_state=SET
+Info: Sending 39691:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 39691:STATE:SET.
+Info: Waiting for GameController to answer to 39691:STATE:SET.
+Info: Waiting for GameController to answer to 39691:STATE:SET.
+Info: Waiting for GameController to answer to 39691:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 4/10
+Info: Red player 1 reset to borderStartingPose: translation (0.9 -1.3 0.3), rotation (0 0 1 1.571592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to shootoutStartingPose: translation (-0.2 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 2.
+Info: Blue player 1 reset to goalKeeperStartingPose: translation (-1.68 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to borderStartingPose: translation (-0.9 1.3 0.3), rotation (0 0 1 -1.57).
+Info: Disabling actuators of blue player 2.
+Info: Ball respawned at -0.9 0 0.04.
+Info: Enabling actuators of red player 2.
+Info: Enabling actuators of blue player 1.
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 40585:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 40585:STATE:PLAY.
+Info: Waiting for GameController to answer to 40585:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.792 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 50
+Info: STATUS: penalty shoot-out 4/10
+Info: STATUS: Avg speed factor: 0.924 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 31
+Info: STATUS: penalty shoot-out 4/10
+Info: STATUS: Avg speed factor: 0.917 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 13
+Info: STATUS: penalty shoot-out 4/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 52633:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 52633:STATE:FINISH.
+Info: Waiting for GameController to answer to 52633:STATE:FINISH.
+Info: Waiting for GameController to answer to 52633:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 5/10
+Info: game.wait_for_state=SET
+Info: Sending 52638:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 52638:STATE:SET.
+Info: Waiting for GameController to answer to 52638:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 5/10
+Info: Blue player 1 reset to borderStartingPose: translation (-0.9 -1.3 0.3), rotation (0 0 1 1.57).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to shootoutStartingPose: translation (0.2 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 2.
+Info: Red player 1 reset to goalKeeperStartingPose: translation (1.68 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to borderStartingPose: translation (0.9 1.3 0.3), rotation (0 0 1 4.711592653589793).
+Info: Disabling actuators of red player 2.
+Info: Ball respawned at 0.9 0 0.04.
+Info: Enabling actuators of red player 1.
+Info: Enabling actuators of blue player 2.
+Info: STATUS: Avg speed factor: 0.851 (over last 20.00 seconds)
+Info: STATUS: state: STATE_SET, remaining time: 60
+Info: STATUS: penalty shoot-out 5/10
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 53552:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 53552:STATE:PLAY.
+Info: Waiting for GameController to answer to 53552:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.899 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 43
+Info: STATUS: penalty shoot-out 5/10
+Info: STATUS: Avg speed factor: 0.906 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 25
+Info: STATUS: penalty shoot-out 5/10
+Info: STATUS: Avg speed factor: 0.904 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 7
+Info: STATUS: penalty shoot-out 5/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 65580:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 65580:STATE:FINISH.
+Info: Waiting for GameController to answer to 65580:STATE:FINISH.
+Info: Waiting for GameController to answer to 65580:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 6/10
+Info: game.wait_for_state=SET
+Info: Sending 65585:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 65585:STATE:SET.
+Info: Waiting for GameController to answer to 65585:STATE:SET.
+Info: Waiting for GameController to answer to 65585:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 6/10
+Info: Red player 1 reset to borderStartingPose: translation (0.9 -1.3 0.3), rotation (0 0 1 1.571592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to shootoutStartingPose: translation (-0.2 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 2.
+Info: Blue player 1 reset to goalKeeperStartingPose: translation (-1.68 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to borderStartingPose: translation (-0.9 1.3 0.3), rotation (0 0 1 -1.57).
+Info: Disabling actuators of blue player 2.
+Info: Ball respawned at -0.9 0 0.04.
+Info: Enabling actuators of red player 2.
+Info: Enabling actuators of blue player 1.
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 66442:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 66442:STATE:PLAY.
+Info: Waiting for GameController to answer to 66442:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.806 (over last 20.01 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 55
+Info: STATUS: penalty shoot-out 6/10
+Info: STATUS: Avg speed factor: 0.898 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 37
+Info: STATUS: penalty shoot-out 6/10
+Info: STATUS: Avg speed factor: 0.893 (over last 20.01 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 19
+Info: STATUS: penalty shoot-out 6/10
+Info: STATUS: Avg speed factor: 0.896 (over last 20.01 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 1
+Info: STATUS: penalty shoot-out 6/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 78492:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 78492:STATE:FINISH.
+Info: Waiting for GameController to answer to 78492:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 7/10
+Info: game.wait_for_state=SET
+Info: Sending 78497:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 78497:STATE:SET.
+Info: Waiting for GameController to answer to 78497:STATE:SET.
+Info: Waiting for GameController to answer to 78497:STATE:SET.
+Info: Waiting for GameController to answer to 78497:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 7/10
+Info: Blue player 1 reset to borderStartingPose: translation (-0.9 -1.3 0.3), rotation (0 0 1 1.57).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to shootoutStartingPose: translation (0.2 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 2.
+Info: Red player 1 reset to goalKeeperStartingPose: translation (1.68 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to borderStartingPose: translation (0.9 1.3 0.3), rotation (0 0 1 4.711592653589793).
+Info: Disabling actuators of red player 2.
+Info: Ball respawned at 0.9 0 0.04.
+Info: Enabling actuators of red player 1.
+Info: Enabling actuators of blue player 2.
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 79388:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 79388:STATE:PLAY.
+Info: Waiting for GameController to answer to 79388:STATE:PLAY.
+Info: Waiting for GameController to answer to 79388:STATE:PLAY.
+Info: Waiting for GameController to answer to 79388:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.785 (over last 20.01 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 50
+Info: STATUS: penalty shoot-out 7/10
+Info: STATUS: Avg speed factor: 0.918 (over last 20.03 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 32
+Info: STATUS: penalty shoot-out 7/10
+Info: STATUS: Avg speed factor: 0.898 (over last 20.04 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 14
+Info: STATUS: penalty shoot-out 7/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 91440:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 91440:STATE:FINISH.
+Info: Waiting for GameController to answer to 91440:STATE:FINISH.
+Info: Waiting for GameController to answer to 91440:STATE:FINISH.
+Info: Waiting for GameController to answer to 91440:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 8/10
+Info: game.wait_for_state=SET
+Info: Sending 91446:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 91446:STATE:SET.
+Info: Waiting for GameController to answer to 91446:STATE:SET.
+Info: Waiting for GameController to answer to 91446:STATE:SET.
+Info: Waiting for GameController to answer to 91446:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 8/10
+Info: Red player 1 reset to borderStartingPose: translation (0.9 -1.3 0.3), rotation (0 0 1 1.571592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to shootoutStartingPose: translation (-0.2 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 2.
+Info: Blue player 1 reset to goalKeeperStartingPose: translation (-1.68 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to borderStartingPose: translation (-0.9 1.3 0.3), rotation (0 0 1 -1.57).
+Info: Disabling actuators of blue player 2.
+Info: Ball respawned at -0.9 0 0.04.
+Info: Enabling actuators of red player 2.
+Info: Enabling actuators of blue player 1.
+Info: STATUS: Avg speed factor: 0.803 (over last 20.00 seconds)
+Info: STATUS: state: STATE_SET, remaining time: 60
+Info: STATUS: penalty shoot-out 8/10
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 92338:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 92338:STATE:PLAY.
+Info: Waiting for GameController to answer to 92338:STATE:PLAY.
+Info: Waiting for GameController to answer to 92338:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.850 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 45
+Info: STATUS: penalty shoot-out 8/10
+Info: STATUS: Avg speed factor: 0.896 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 27
+Info: STATUS: penalty shoot-out 8/10
+Info: STATUS: Avg speed factor: 0.740 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 13
+Info: STATUS: penalty shoot-out 8/10
+Info: Sending automated PLAYING -> FINISH because seconds remaining = 0
+Info: game.wait_for_state=None
+Info: Sending 104415:STATE:FINISH to GameController.
+Info: Waiting for GameController to answer to 104415:STATE:FINISH.
+Info: Waiting for GameController to answer to 104415:STATE:FINISH.
+Info: Waiting for GameController to answer to 104415:STATE:FINISH.
+Info: New state received from GameController: STATE_FINISHED.
+Info: End of penalty shoot-out 9/10
+Info: game.wait_for_state=SET
+Info: Sending 104420:STATE:SET to GameController.
+Info: Waiting for GameController to answer to 104420:STATE:SET.
+Info: Waiting for GameController to answer to 104420:STATE:SET.
+Info: New state received from GameController: STATE_SET.
+Info: State has succesfully changed to SET
+Info: Entering SET, first_half = True, sec_state = STATE_PENALTYSHOOT, sec_phase = 0
+Info: Setting positions for penalty shoot-out 9/10
+Info: Blue player 1 reset to borderStartingPose: translation (-0.9 -1.3 0.3), rotation (0 0 1 1.57).
+Info: Disabling actuators of blue player 1.
+Info: Blue player 2 reset to shootoutStartingPose: translation (0.2 0 0.3), rotation (0 0 1 0).
+Info: Disabling actuators of blue player 2.
+Info: Red player 1 reset to goalKeeperStartingPose: translation (1.68 0 0.3), rotation (0 0 1 3.141592653589793).
+Info: Disabling actuators of red player 1.
+Info: Red player 2 reset to borderStartingPose: translation (0.9 1.3 0.3), rotation (0 0 1 4.711592653589793).
+Info: Disabling actuators of red player 2.
+Info: Ball respawned at 0.9 0 0.04.
+Info: Enabling actuators of red player 1.
+Info: Enabling actuators of blue player 2.
+Info: Real-time to wait elasped, moving to PLAYING
+Info: game.wait_for_state=PLAYING
+Info: Sending 105250:STATE:PLAY to GameController.
+Info: Waiting for GameController to answer to 105250:STATE:PLAY.
+Info: Waiting for GameController to answer to 105250:STATE:PLAY.
+Info: New state received from GameController: STATE_PLAYING.
+Info: State has succesfully changed to PLAYING
+Info: STATUS: Avg speed factor: 0.804 (over last 20.26 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 60
+Info: STATUS: penalty shoot-out 9/10
+Info: STATUS: Avg speed factor: 0.909 (over last 20.00 seconds)
+Info: STATUS: state: STATE_PLAYING, remaining time: 43
+Info: STATUS: penalty shoot-out 9/10

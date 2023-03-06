@@ -12,12 +12,12 @@ class PenaltyOld(Competition):
     if len(teams) != 2:
       raise ValueError("Teams length must be 2")
   
-  def team_json(self, team_number):
+  def current_json(self, team_number):
     return elsiros.base_path + f"controllers/referee/team_{team_number}.json"
 
   def assign_team(self, team_number, team):
     print(team)
-    elsiros.write_to_json(self.team_json(team_number), {"name" : team["name"], "robotStartCmd" : team["path"]})
+    elsiros.write_to_json(self.current_json(team_number), {"name" : team["name"], "robotStartCmd" : team["path"]})
 
   def title(self):
     return f"Penalty_OLD_{self.teams[0]['name']}_{self.teams[1]['name']}"
@@ -31,10 +31,13 @@ class Penalty(Competition):
   def assign_team(self, team_number, team):
     with open(team["path"]) as f:
       data = json.load(f)
-      elsiros.write_to_json(self.team_json(team_number), data)
+      elsiros.write_to_json(self.current_json(team_number), data)
 
-  def team_json(self, team_number):
+  def current_json(self, team_number):
     return elsiros.base_path + f"controllers/Robofest_TEAM/Init_params/strategy_data.json"
+
+  def game_json(self):
+    return f"controllers/referee_Robofest/game.json"
 
   def title(self):
     return f"Penalty_{self.teams[0]['name']}"
@@ -59,15 +62,19 @@ class Sprint(Competition):
   def assign_team(self, team_number, team):
     with open(team["path"]) as f:
       data = json.load(f)
-      elsiros.write_to_json(self.team_json(team_number), data)
+      elsiros.write_to_json(self.current_json(team_number), data)
 
-  def team_json(self, team_number):
+  def current_json(self, team_number):
     return elsiros.base_path + f"controllers/Robofest_TEAM/Init_params/Sprint_params.json"
 
   def check_finish(self, line): 
     line = [linel.strip() for linel in line.split(":")]
-    result = int(line[3])
-    return True, result
+    check  = False
+    result = None
+    if len(line) == 4:
+      result = int(line[3])
+      check = True 
+    return check, result
 
   def title(self):
     return f"Sprint_{self.teams[0]['name']}"
@@ -81,14 +88,18 @@ class Marathon(Competition):
   def assign_team(self, team_number, team):
     with open(team["path"]) as f:
       data = json.load(f)
-      elsiros.write_to_json(self.team_json(team_number), data)
+      elsiros.write_to_json(self.current_json(team_number), data)
 
   def check_finish(self, line): 
     line = [linel.strip() for linel in line.split(":")]
-    result = int(line[3])
-    return True, result
+    check  = False
+    result = None
+    if len(line) == 4:
+      result = int(line[3])
+      check = True 
+    return check, result
 
-  def team_json(self, team_number):
+  def current_json(self, team_number):
     return elsiros.base_path + f"controllers/Robofest_TEAM/Init_params/Marathon_params.json"
 
   def title(self):

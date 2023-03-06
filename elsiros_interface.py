@@ -17,13 +17,10 @@ class ElsirosInterface:
         with open(filename, 'w') as outfile:
             json.dump(data, outfile, indent=4)
 
-    def game_json(self):
-        return self.base_path + f"controllers/referee_Robofest/game.json"
-
-    def assign_video_record(self, title):
+    def assign_video_record(self, title, game_json_path):
         path = self.base_path + "videos/" + title + ".mp4"
         print(path)
-        self.write_to_json(self.game_json(), {"record_simulation" : self.base_path + "videos/" + title + ".mp4"})
+        self.write_to_json(self.base_path + game_json_path, {"record_simulation" : self.base_path + "videos/" + title + ".mp4"})
 
     def launch(self, world):
         proc = Process(target=os.system, args=(self.base_path + "worlds/" + world,))

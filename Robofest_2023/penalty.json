@@ -1,0 +1,44 @@
+{
+    "competition": "Penalty",
+    "repeats": 3,
+
+    "teams":
+    [   {
+            "name": "1566", 
+            "path": "1566/strategy_data.json"
+        },
+        {
+            "name": "Перепелка", 
+            "path": "Перепелка/strategy_data.json"
+        },
+        {
+            "name": "Робокит", 
+            "path": "Робокит/strategy_data_json.json"
+        },
+        {
+            "name": "Робокит А (Комков)", 
+            "path": "Робокит А (Комков)/data.json"
+        },
+        {
+            "name": "Роботема", 
+            "path": "Роботема/strategy_data.json"
+        },
+        {
+            "name": "Универс", 
+            "path": "Универс 10/strategy_data.json"
+        },
+        {
+            "name": "Электроникс", 
+            "path": "Электроникс/strategy_data.json"
+        }
+    ],
+
+    "games":
+    [
+        ["Робокит"],
+        ["Универс"],
+        ["Электроникс"],
+        ["1566"],
+        ["Перепелка"]
+    ]
+}

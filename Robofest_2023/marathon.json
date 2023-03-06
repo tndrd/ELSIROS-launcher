@@ -1,0 +1,41 @@
+{
+    "competition": "Marathon",
+    "repeats": 3,
+
+    "teams":
+    [   {
+            "name": "1566", 
+            "path": "1566/Marathon_params.json"
+        },
+        {
+            "name": "Перепелка", 
+            "path": "Перепелка 2/Marathon_params.json"
+        },
+        {
+            "name": "Робокит", 
+            "path": "Робокит/Спринт_марафон_параметры/Marathon_params.json"
+        },
+        {
+            "name": "Роботема", 
+            "path": "Роботема/Marathon_params.json"
+        },
+        {
+            "name": "Универс", 
+            "path": "Универс 10/Marathon_params.json"
+        },
+        {
+            "name": "Электроникс", 
+            "path": "Электроникс/Marathon_params.json"
+        }
+    ],
+
+    "games":
+    [
+        ["Робокит"],
+        ["Роботема"],
+        ["Универс"],
+        ["Электроникс"],
+        ["1566"],
+        ["Перепелка"]
+    ]
+}

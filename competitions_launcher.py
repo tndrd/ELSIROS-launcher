@@ -2,6 +2,9 @@ import json
 import competitions
 import socket
 from time import sleep
+import sys
+import signal
+import os
 
 COMPETITION_NAMES = { "Penalty": competitions.Penalty,
                       "PenaltyOld": competitions.PenaltyOld,
@@ -44,9 +47,10 @@ class TournamentLauncher:
         except Exception: continue
 
         if data == "\n":
-          res, finish_data = competition.check_finish(log)
-          if res:
-            print(f"Finished with {finish_data}")
+          check, result = competition.check_finish(log)
+          if check:
+            finish_data = result
+            print(f"Finished with {result}")
             print("Waiting for ELSIROS clean exit...")
           
           if log == FINISH_PHRASE:
@@ -57,13 +61,14 @@ class TournamentLauncher:
         else:
           log = log + data
         if not data:
-            break
+            print("LOG_ERROR")
+            return None
 
   def _get_team(self, name):
     return self.teams[self.team_IDs[name]]
 
   def _load_teams(self):
-    with open(self.description_path) as f:
+    with open(self.description_path, encoding=sys.getfilesystemencoding()) as f:
       description = json.load(f)
       self.teams = description["teams"]
       
@@ -73,7 +78,7 @@ class TournamentLauncher:
         self.team_IDs[team["name"]] = i
     
   def _load_games(self):
-    with open(self.description_path) as f:
+    with open(self.description_path, encoding=sys.getfilesystemencoding()) as f:
       self.description = json.load(f)
       
       self.compt_t = self._competition_type(self.description["competition"])
@@ -107,7 +112,11 @@ class TournamentLauncher:
         result = self._readloop(conn, game)
         record["results"].append(result)
         print("Terminating ELSIROS...")
-        proc.terminate()
+        if result is None:
+          print("Killing process, result invalid")
+          os.system(f"taskkill /PID {proc.pid} /F /T")
+        else:
+          proc.terminate()
         conn.close()
         print("------------------------------")
         sleep(5)
@@ -118,17 +127,3 @@ class TournamentLauncher:
 
   def _competition_type(self, name):
     return COMPETITION_NAMES[name]
-
-if __name__ == "__main__":
-  tournament = "tournament.json" #input()
-  test_tournament = "test_tournament.json" #input()
-  marathon = "marathon.json"
-  penalty = "penalty.json"
-  sprint = "sprint.json"
-
-  teams_path = "teams/"
-  launcher = TournamentLauncher(penalty, teams_path)
-  results = launcher.launch()
-
-  with open("results.json", "w") as f:
-    json.dump(results, f, indent=4)

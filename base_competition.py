@@ -10,12 +10,14 @@ class Competition:
       f = open(team["path"])
       f.close()
 
+  def game_json(self):
+    return f"controllers/Robofest_TEAM/game.json"
 
   def launch(self, postfix):
     for i in range(len(self.teams)):
       self.assign_team(i + 1, self.teams[i])
     
-    elsiros.assign_video_record(self.title() + "_" + postfix)
+    elsiros.assign_video_record(self.title() + "_" + postfix, self.game_json())
     return elsiros.launch(self.world)
 
   def get_teams_weights(self):
