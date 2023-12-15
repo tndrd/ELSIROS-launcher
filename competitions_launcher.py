@@ -7,7 +7,7 @@ import signal
 import os
 
 COMPETITION_NAMES = { "Penalty": competitions.Penalty,
-                      "PenaltyOld": competitions.PenaltyOld,
+                      "Soccer": competitions.Soccer,
                       "Sprint":  competitions.Sprint,
                       "Marathon":  competitions.Marathon }
 
@@ -44,9 +44,11 @@ class TournamentLauncher:
       while True:
         try:
           data = conn.recv(1).decode("utf-8")
-        except Exception: continue
+        except Exception as e:
+          #print(str(e))
+          continue
 
-        if data == "\n":
+        if data == "\n" or data == "\r":
           check, result = competition.check_finish(log)
           if check:
             finish_data = result
@@ -61,7 +63,7 @@ class TournamentLauncher:
         else:
           log = log + data
         if not data:
-            print("LOG_ERROR")
+            print(f"LOG_ERROR: expecting '{FINISH_PHRASE}', got '{finish_data}'")
             return None
 
   def _get_team(self, name):

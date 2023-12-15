@@ -1,0 +1,30 @@
+{
+    "competition": "Soccer",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "Electronix", 
+            "path": "Electronix_TEAM/"
+        },
+        {
+            "name": "MakeWash", 
+            "path": "MakeWash/"
+        },
+        {
+            "name": "SPARKLIKI", 
+            "path": "SPARKLIKI/"
+        },
+        {
+            "name": "Vakhitova 2",
+            "path": "Vakhitova2/"
+        }
+    ],
+
+    "games":
+    [
+        ["Electronix", "SPARKLIKI"],
+        ["MakeWash", "Vakhitova 2"]
+    ]
+}

@@ -1,0 +1,196 @@
+2023-08-10 11:11:57.237375
+2023-08-10 11:12:17,410 Socket timeout
+2023-08-10 11:12:17,912 Socket timeout
+2023-08-10 11:12:18,416 Socket timeout
+2023-08-10 11:12:18,920 Socket timeout
+2023-08-10 11:12:19,422 Socket timeout
+2023-08-10 11:12:19,938 Socket timeout
+2023-08-10 11:12:20,452 Socket timeout
+2023-08-10 11:12:20,959 Socket timeout
+2023-08-10 11:12:21,462 Socket timeout
+2023-08-10 11:12:21,966 Socket timeout
+2023-08-10 11:12:22,470 Socket timeout
+2023-08-10 11:12:23,005 Socket timeout
+2023-08-10 11:12:23,509 Socket timeout
+2023-08-10 11:12:24,010 Socket timeout
+2023-08-10 11:12:24,525 Socket timeout
+2023-08-10 11:12:25,030 Socket timeout
+2023-08-10 11:12:25,547 Socket timeout
+2023-08-10 11:12:26,049 Socket timeout
+2023-08-10 11:12:26,553 Socket timeout
+2023-08-10 11:12:27,556 Socket timeout
+2023-08-10 11:12:28,059 Socket timeout
+2023-08-10 11:12:28,566 Socket timeout
+2023-08-10 11:12:29,070 Socket timeout
+2023-08-10 11:12:29,586 Socket timeout
+2023-08-10 11:12:30,602 Socket timeout
+2023-08-10 11:12:31,104 Socket timeout
+2023-08-10 11:12:31,619 Socket timeout
+2023-08-10 11:12:32,135 Socket timeout
+2023-08-10 11:12:32,639 Socket timeout
+2023-08-10 11:12:33,144 Socket timeout
+2023-08-10 11:12:33,646 Socket timeout
+2023-08-10 11:12:34,650 Socket timeout
+2023-08-10 11:12:35,171 Socket timeout
+2023-08-10 11:12:36,169 Socket timeout
+2023-08-10 11:12:36,678 Socket timeout
+2023-08-10 11:12:37,183 Socket timeout
+2023-08-10 11:12:37,693 Socket timeout
+2023-08-10 11:12:38,196 Socket timeout
+2023-08-10 11:12:38,703 Socket timeout
+2023-08-10 11:12:39,213 Socket timeout
+2023-08-10 11:12:39,719 Socket timeout
+2023-08-10 11:12:40,227 Socket timeout
+2023-08-10 11:12:40,733 Socket timeout
+2023-08-10 11:12:41,240 Socket timeout
+2023-08-10 11:12:41,746 Socket timeout
+2023-08-10 11:12:42,251 Socket timeout
+2023-08-10 11:12:42,759 Socket timeout
+2023-08-10 11:12:43,264 Socket timeout
+2023-08-10 11:12:43,772 Socket timeout
+2023-08-10 11:12:44,279 Socket timeout
+2023-08-10 11:12:44,787 Socket timeout
+2023-08-10 11:12:45,296 Socket timeout
+2023-08-10 11:12:45,802 Socket timeout
+2023-08-10 11:12:46,310 Socket timeout
+2023-08-10 11:12:46,819 Socket timeout
+2023-08-10 11:12:47,326 Socket timeout
+2023-08-10 11:12:56,451 Socket timeout
+2023-08-10 11:12:56,960 Socket timeout
+2023-08-10 11:12:57,973 Socket timeout
+2023-08-10 11:12:58,478 Socket timeout
+2023-08-10 11:12:58,987 Socket timeout
+2023-08-10 11:12:59,493 Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Users\Роман\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Роман\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "E:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "E:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-08-10 11:13:00,003 Socket timeout
+tate watch_Ball_In_Pose
+2023-08-10 11:12:36,582 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 16.36
+2023-08-10 11:12:36,584 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.03 0.0
+2023-08-10 11:12:36,584 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:36,586 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:36,588 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 16.365
+2023-08-10 11:12:36,589 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.03 0.0
+2023-08-10 11:12:36,590 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:36,591 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:37,390 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 17.1
+2023-08-10 11:12:37,392 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.02 0.0
+2023-08-10 11:12:37,393 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:37,394 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:37,396 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 17.11
+2023-08-10 11:12:37,397 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.02 0.0
+2023-08-10 11:12:37,398 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:37,399 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:38,197 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 17.815
+2023-08-10 11:12:38,198 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.04 0.0
+2023-08-10 11:12:38,199 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:38,203 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:38,207 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 17.825
+2023-08-10 11:12:38,209 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.04 0.0
+2023-08-10 11:12:38,210 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:38,211 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:39,006 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 18.55
+2023-08-10 11:12:39,007 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.03 -0.0
+2023-08-10 11:12:39,008 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:39,009 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:39,011 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 18.55
+2023-08-10 11:12:39,012 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.03 -0.0
+2023-08-10 11:12:39,013 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:39,016 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:39,784 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 19.26
+2023-08-10 11:12:39,785 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.03 -0.0
+2023-08-10 11:12:39,786 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:39,787 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:39,789 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 19.26
+2023-08-10 11:12:39,790 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.03 -0.0
+2023-08-10 11:12:39,791 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:39,792 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:40,575 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 19.975
+2023-08-10 11:12:40,576 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.0 -0.0
+2023-08-10 11:12:40,578 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:40,579 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:40,583 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 19.98
+2023-08-10 11:12:40,584 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.0 -0.0
+2023-08-10 11:12:40,585 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:40,586 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:41,396 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 20.72
+2023-08-10 11:12:41,397 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.02 -0.0
+2023-08-10 11:12:41,399 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:41,400 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:41,404 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 20.725
+2023-08-10 11:12:41,405 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.02 -0.0
+2023-08-10 11:12:41,406 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:41,407 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:42,205 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 21.44
+2023-08-10 11:12:42,206 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.02 0.0
+2023-08-10 11:12:42,207 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:42,208 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:42,210 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 21.445
+2023-08-10 11:12:42,211 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.02 0.0
+2023-08-10 11:12:42,212 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:42,213 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:43,011 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 22.155
+2023-08-10 11:12:43,012 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.0 -0.01
+2023-08-10 11:12:43,013 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:43,014 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:43,018 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 22.16
+2023-08-10 11:12:43,019 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball -0.0 -0.01
+2023-08-10 11:12:43,020 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:43,021 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:43,837 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 22.9
+2023-08-10 11:12:43,838 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.19 -0.07
+2023-08-10 11:12:43,839 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:43,840 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:43,842 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 22.9
+2023-08-10 11:12:43,843 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.19 -0.07
+2023-08-10 11:12:43,844 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:43,845 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:44,645 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 23.61
+2023-08-10 11:12:44,646 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.25 -0.12
+2023-08-10 11:12:44,647 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:44,649 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:44,651 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 23.615
+2023-08-10 11:12:44,653 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.25 -0.12
+2023-08-10 11:12:44,654 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:44,655 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:45,438 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 24.355
+2023-08-10 11:12:45,439 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.38 -0.16
+2023-08-10 11:12:45,440 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:45,441 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:46,011 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 24.865
+2023-08-10 11:12:46,012 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.38 -0.16
+2023-08-10 11:12:46,013 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.68 0.0
+2023-08-10 11:12:46,014 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State goalkeeper turn_To_Course(0)
+2023-08-10 11:12:46,015 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(1075) - goalkeeper turn_To_Course(0)
+2023-08-10 11:12:46,612 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(1079) - omni_motion Direction - -0.10528694556768353
+2023-08-10 11:12:53,347 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(1085) - goalkeeper turn_To_Course(0)
+2023-08-10 11:12:56,180 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 34.045
+2023-08-10 11:12:56,181 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.38 -0.16
+2023-08-10 11:12:56,182 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.44 -0.04
+2023-08-10 11:12:56,183 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State goalkeeper turn_To_Course(0)
+2023-08-10 11:12:56,754 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(184) - simulate motion slot:Initial_Pose
+2023-08-10 11:12:57,563 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 35.315
+2023-08-10 11:12:57,564 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.75 -0.31
+2023-08-10 11:12:57,565 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.44 -0.04
+2023-08-10 11:12:57,567 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:58,149 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 35.825
+2023-08-10 11:12:58,150 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.75 -0.31
+2023-08-10 11:12:58,151 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.44 -0.04
+2023-08-10 11:12:58,152 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:58,924 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 36.535
+2023-08-10 11:12:58,926 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.75 -0.33
+2023-08-10 11:12:58,927 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.44 -0.04
+2023-08-10 11:12:58,928 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose
+2023-08-10 11:12:59,510 - [INFO] - __main__ - (strategy.py).Save_GK_params(849) - Save_Gk at TIME 37.04
+2023-08-10 11:12:59,512 - [INFO] - __main__ - (strategy.py).Save_GK_params(850) - Ball 0.75 -0.33
+2023-08-10 11:12:59,513 - [INFO] - __main__ - (strategy.py).Save_GK_params(851) - Gk -1.44 -0.04
+2023-08-10 11:12:59,514 - [INFO] - __main__ - (strategy.py).Save_GK_params(852) - State watch_Ball_In_Pose

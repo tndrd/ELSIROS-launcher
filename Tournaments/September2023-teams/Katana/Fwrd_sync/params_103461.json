@@ -1,0 +1,12 @@
+{
+"ball_coord": {
+"X": 0.0,
+"Y": 0.0
+},
+"robot_coord": {
+"X": -0.030774216634547547,
+"Y": -0.003823353282361698
+},
+"robot_current_state": "Initial_Pose",
+"duty_direction": 0
+}

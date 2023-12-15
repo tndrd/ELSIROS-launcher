@@ -1,0 +1,46 @@
+{
+    "competition": "Soccer",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "Katana", 
+            "path": "Katana/"
+        },
+        {
+            "name": "KozinaK", 
+            "path": "KozinaK/"
+        },
+        {
+            "name": "RobotsAndMe", 
+            "path": "RobotsAndMe/"
+        },
+        {
+            "name": "Selivanov",
+            "path": "Selivanov/"
+        },
+        {
+            "name": "SPARKLIKI", 
+            "path": "SPARKLIKI/"
+        },
+        {
+            "name": "Vakhitova1",
+            "path": "Vakhitova1/"
+        },
+        {
+            "name": "Vakhitova2",
+            "path": "Vakhitova2/"
+        },
+        {
+            "name": "Voronkov", 
+            "path": "Voronkov/"
+        }
+    ],
+
+    "games":
+    [
+        ["SPARKLIKI", "Katana"],
+        ["Voronkov", "Vakhitova1"]
+    ]
+}

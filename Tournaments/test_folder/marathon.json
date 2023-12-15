@@ -1,0 +1,17 @@
+{
+    "competition": "Marathon",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "Baumek", 
+            "path": "Baumek/Init_params/Marathon_params.json"
+        }
+    ],
+
+    "games":
+    [
+        ["Baumek"] 
+    ]
+}

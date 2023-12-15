@@ -1,0 +1,11 @@
+2023-04-23 08:03:19.164215
+2023-04-23 08:03:20,376 - [INFO] - __main__ - (main_pb.py).main_procedure(115) - port = 7022
+2023-04-23 08:03:20,378 - [INFO] - __main__ - (main_pb.py).main_procedure(116) - role = forward team_id =-1 robot_color = blue robot_number =2
+2023-04-23 08:03:22,402 - [WARNING] - communication_manager - (robot_client.py).connect_client(56) - Failed to connect to 127.0.0.1:7022 0                                 attempt  of 20.
+2023-04-23 08:03:22,405 - [WARNING] - communication_manager - (robot_client.py).connect_client(59) - Caught exception socket.error : [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2023-04-23 08:03:25,435 - [WARNING] - communication_manager - (robot_client.py).connect_client(56) - Failed to connect to 127.0.0.1:7022 1                                 attempt  of 20.
+2023-04-23 08:03:25,439 - [WARNING] - communication_manager - (robot_client.py).connect_client(59) - Caught exception socket.error : [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2023-04-23 08:03:28,461 - [WARNING] - communication_manager - (robot_client.py).connect_client(56) - Failed to connect to 127.0.0.1:7022 2                                 attempt  of 20.
+2023-04-23 08:03:28,466 - [WARNING] - communication_manager - (robot_client.py).connect_client(59) - Caught exception socket.error : [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2023-04-23 08:03:31,506 - [WARNING] - communication_manager - (robot_client.py).connect_client(56) - Failed to connect to 127.0.0.1:7022 3                                 attempt  of 20.
+2023-04-23 08:03:31,509 - [WARNING] - communication_manager - (robot_client.py).connect_client(59) - Caught exception socket.error : [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение

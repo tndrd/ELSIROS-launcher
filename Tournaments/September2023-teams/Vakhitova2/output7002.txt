@@ -1,0 +1,570 @@
+2023-06-11 14:53:05.590126
+2023-06-11 14:53:34,663 Socket timeout
+2023-06-11 14:53:37,172 Socket timeout
+2023-06-11 14:53:37,675 Socket timeout
+2023-06-11 14:53:38,678 Socket timeout
+2023-06-11 14:53:43,693 Socket timeout
+2023-06-11 14:53:45,198 Socket timeout
+2023-06-11 14:53:45,718 Socket timeout
+2023-06-11 14:53:46,221 Socket timeout
+2023-06-11 14:53:48,227 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:54:01,267 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:54:03,274 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:54:09,290 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:54:22,323 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:54:28,337 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:54:54,911 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:54:58,419 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:54:58,922 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:55:00,927 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:55:04,937 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:55:06,948 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:
+ Game Controller STATE_SET. Waiting for PLAYING..
+2023-06-11 14:55:12,462 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:former_game_state == "STATE_SET"
+INFO:__main__:playing allowed
+INFO:__main__:current_game_state =STATE_PLAYING current_player_penalty =0
+INFO:__main__:former_game_state =STATE_SET former_player_penalty =0
+INFO:__main__:imu_activation
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:55:17,475 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:55:19,485 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:55:20,495 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:55:33,526 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:55:36,038 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:55:46,565 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+2023-06-11 14:55:52,570 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:
+ Game Controller STATE_SET. Waiting for PLAYING..
+2023-06-11 14:55:53,574 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:55:55,077 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:former_game_state == "STATE_SET"
+INFO:__main__:playing allowed
+INFO:__main__:current_game_state =STATE_PLAYING current_player_penalty =0
+INFO:__main__:former_game_state =STATE_SET former_player_penalty =0
+INFO:__main__:imu_activation
+2023-06-11 14:55:58,084 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:56:00,588 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:01,091 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:01,597 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:02,602 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:56:15,635 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:18,141 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:32,682 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:56:35,684 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:36,186 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:39,191 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:simulate motion slot:Initial_Pose
+INFO:__main__:STOP!
+INFO:__main__:
+ Game Controller STATE_SET. Waiting for PLAYING..
+2023-06-11 14:56:45,714 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:former_game_state == "STATE_SET"
+INFO:__main__:playing allowed
+INFO:__main__:current_game_state =STATE_PLAYING current_player_penalty =0
+INFO:__main__:former_game_state =STATE_SET former_player_penalty =0
+INFO:__main__:imu_activation
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:56:49,722 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:51,730 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:56:52,233 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:57:08,772 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:57:37,345 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:57:41,856 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:57:47,366 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:57:48,372 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:57:49,376 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:57:49,905 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:57:51,410 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:
+ Game Controller STATE_SET. Waiting for PLAYING..
+INFO:__main__:former_game_state == "STATE_SET"
+INFO:__main__:playing allowed
+INFO:__main__:current_game_state =STATE_PLAYING current_player_penalty =0
+INFO:__main__:former_game_state =STATE_SET former_player_penalty =0
+INFO:__main__:imu_activation
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:58:10,958 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:12,462 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:13,468 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:58:27,494 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:28,499 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:29,002 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:31,007 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:32,509 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:58:46,041 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:46,543 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:47,546 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:49,051 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:50,556 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:51,058 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:58:52,068 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:11,113 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:11,621 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-06-11 14:59:12,622 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:14,121 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:15,124 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:16,628 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:22,639 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:23,140 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:28,148 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:31,154 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:32,157 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:36,165 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:39,672 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:40,173 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:47,187 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:48,190 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:50,194 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:52,200 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 14:59:54,205 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:01,220 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:05,228 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:05,729 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:06,230 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:11,740 Socket timeout
+WARNING:game_controller:Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "C:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-11 15:00:14,747 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:17,253 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:21,262 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:24,269 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:24,771 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:29,845 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:32,388 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:35,989 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:36,493 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:36,995 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:37,498 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:38,000 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-06-11 15:00:38,503 Socket timeout
+WARNING:game_controller:Socket timeout
+ots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:51,970 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,020 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,023 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,026 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,031 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,035 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,044 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,046 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,049 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,052 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,056 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,060 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,063 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,066 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,070 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:52,073 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:52,075 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:53,110 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:53,113 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:55:53,117 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:55:53,141 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(134) - 
+ Game Controller STATE_SET. Waiting for PLAYING..
+2023-06-11 14:55:57,191 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(185) - former_game_state == "STATE_SET"
+2023-06-11 14:55:57,193 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(201) - playing allowed
+2023-06-11 14:55:57,195 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(203) - current_game_state =STATE_PLAYING current_player_penalty =0
+2023-06-11 14:55:57,197 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(204) - former_game_state =STATE_SET former_player_penalty =0
+2023-06-11 14:55:57,201 - [INFO] - __main__ - (class_Motion_Webots_PB.py).imu_activation(92) - imu_activation
+2023-06-11 14:55:58,205 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:13,729 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:33,292 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,886 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,891 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,896 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,900 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,903 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,908 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,913 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,917 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,924 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,930 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,935 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,940 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,947 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,951 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,956 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,963 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,968 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,972 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,976 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,979 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,982 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,987 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:42,992 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:42,997 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,059 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,064 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,067 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,071 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,075 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,081 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,085 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,090 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,093 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,096 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,099 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,103 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,106 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,112 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,116 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,119 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,122 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,126 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,130 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,133 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,137 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,140 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,143 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,147 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,150 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,153 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:43,156 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:43,159 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:44,226 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:44,231 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:56:44,234 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-06-11 14:56:44,258 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(134) - 
+ Game Controller STATE_SET. Waiting for PLAYING..
+2023-06-11 14:56:48,307 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(185) - former_game_state == "STATE_SET"
+2023-06-11 14:56:48,309 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(201) - playing allowed
+2023-06-11 14:56:48,312 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(203) - current_game_state =STATE_PLAYING current_player_penalty =0
+2023-06-11 14:56:48,316 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(204) - former_game_state =STATE_SET former_player_penalty =0
+2023-06-11 14:56:48,320 - [INFO] - __main__ - (class_Motion_Webots_PB.py).imu_activation(92) - imu_activation
+2023-06-11 14:56:49,376 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:57:05,313 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:57:16,174 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:57:37,844 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:58:03,803 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(134) - 
+ Game Controller STATE_SET. Waiting for PLAYING..
+2023-06-11 14:58:08,481 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(185) - former_game_state == "STATE_SET"
+2023-06-11 14:58:08,483 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(201) - playing allowed
+2023-06-11 14:58:08,487 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(203) - current_game_state =STATE_PLAYING current_player_penalty =0
+2023-06-11 14:58:08,489 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(204) - former_game_state =STATE_SET former_player_penalty =0
+2023-06-11 14:58:08,494 - [INFO] - __main__ - (class_Motion_Webots_PB.py).imu_activation(92) - imu_activation
+2023-06-11 14:58:09,541 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:58:25,318 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:58:44,609 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-06-11 14:59:12,237 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose

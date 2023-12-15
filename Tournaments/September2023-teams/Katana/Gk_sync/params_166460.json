@@ -1,0 +1,12 @@
+{
+"ball_coord": {
+"X": 0.37690453545785907,
+"Y": -0.16101697050246336
+},
+"robot_coord": {
+"X": -1.4380241309883615,
+"Y": -0.04379021595618662
+},
+"robot_current_state": "goalkeeper turn_To_Course(0)",
+"duty_direction": 0
+}

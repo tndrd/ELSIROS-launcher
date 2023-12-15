@@ -1,0 +1,44 @@
+{
+    "competition": "Penalty",
+    "repeats": 1,
+
+    "teams":
+    [   {
+            "name": "Robokit B", 
+            "path": "ROBOKIT_B/Init_params/strategy_data.json"
+        },
+        {
+            "name": "ZUBRoid", 
+            "path": "ZUBRoid/Init_params/strategy_data.json"
+        },
+        {
+            "name": "Star", 
+            "path": "Star/Init_params/strategy_data.json"
+        },
+        {
+            "name": "Robokit A", 
+            "path": "ROBOKIT_A/Init_params/strategy_data.json"
+        },
+        {
+            "name": "Robokit C", 
+            "path": "ROBOKIT_C/Init_params/strategy_data.json"
+        },
+        {
+            "name": "Robokit", 
+            "path": "Robokit/Init_params/strategy_data.json"
+        },
+        {
+            "name": "Baumek", 
+            "path": "Baumek/Init_params/strategy_data.json"
+        },
+        {
+            "name": "Robochamp", 
+            "path": "Robochamp/Init_params/strategy_data.json"
+        }
+    ],
+
+    "games":
+    [
+        ["Robokit B"]
+    ]
+}

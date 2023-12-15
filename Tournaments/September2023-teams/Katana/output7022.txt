@@ -1,0 +1,7 @@
+2023-07-28 09:55:04.979270
+2023-07-28 09:55:06,186 - [INFO] - __main__ - (main_pb.py).main_procedure(115) - port = 7022
+2023-07-28 09:55:06,187 - [INFO] - __main__ - (main_pb.py).main_procedure(116) - role = forward_old_style team_id =-1 robot_color = blue robot_number =2
+2023-07-28 09:55:06,202 - [INFO] - __main__ - (main_pb.py).main_procedure(125) - role = forward_old_style team_id =-1 robot_color = blue robot_number =2
+2023-07-28 09:55:06,204 - [INFO] - __main__ - (main_pb.py).main_procedure(134) - Player is going to play without Game Controller
+2023-07-28 09:55:06,208 - [WARNING] - communication_manager - (communication_manager_robokit.py).__update_history(66) - WARNING! Large protobuf time rx delta = 8425
+2023-07-28 09:55:07,211 - [INFO] - __main__ - (class_Motion_Webots_PB.py).imu_activation(92) - imu_activation

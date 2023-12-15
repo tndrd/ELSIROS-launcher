@@ -1,0 +1,12 @@
+{
+"ball_coord": {
+"X": 0.0,
+"Y": 0.0
+},
+"robot_coord": {
+"X": -0.3999992706086847,
+"Y": 1.415778947154764e-06
+},
+"robot_current_state": "near_distance_omni_motion(400,0)",
+"duty_direction": 0
+}

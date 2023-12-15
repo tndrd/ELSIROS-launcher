@@ -1,0 +1,107 @@
+2023-04-15 14:19:17.185069
+2023-04-15 14:19:38,355 Socket timeout
+2023-04-15 14:19:38,859 Socket timeout
+2023-04-15 14:19:39,373 Socket timeout
+2023-04-15 14:19:40,880 Socket timeout
+2023-04-15 14:19:41,888 Socket timeout
+2023-04-15 14:19:42,894 Socket timeout
+2023-04-15 14:19:43,443 Socket timeout
+2023-04-15 14:19:43,946 Socket timeout
+2023-04-15 14:19:44,461 Socket timeout
+2023-04-15 14:19:45,477 Socket timeout
+2023-04-15 14:19:45,991 Socket timeout
+2023-04-15 14:19:46,502 Socket timeout
+2023-04-15 14:19:47,017 Socket timeout
+2023-04-15 14:19:48,034 Socket timeout
+2023-04-15 14:19:48,537 Socket timeout
+2023-04-15 14:19:51,045 Socket timeout
+2023-04-15 14:19:51,549 Socket timeout
+2023-04-15 14:19:52,065 Socket timeout
+2023-04-15 14:19:52,569 Socket timeout
+2023-04-15 14:19:53,075 Socket timeout
+2023-04-15 14:19:53,590 Socket timeout
+2023-04-15 14:19:54,105 Socket timeout
+2023-04-15 14:19:54,622 Socket timeout
+2023-04-15 14:19:55,638 Socket timeout
+2023-04-15 14:19:56,150 Socket timeout
+2023-04-15 14:19:58,169 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:19:58,681 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:19:59,188 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:19:59,701 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:00,208 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:00,719 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:01,225 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:01,739 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:02,251 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:02,756 Socket timeout
+WARNING:game_controller:Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "D:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-04-15 14:20:04,771 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:05,280 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:05,790 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:06,300 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:06,810 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:07,317 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:07,827 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:08,337 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:08,846 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:09,356 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:09,866 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:10,376 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:10,885 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:11,395 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:11,905 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:12,415 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:13,430 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:13,940 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:14,450 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:14,960 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:15,469 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:15,979 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:16,489 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:16,999 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-15 14:20:17,508 Socket timeout
+WARNING:game_controller:Socket timeout

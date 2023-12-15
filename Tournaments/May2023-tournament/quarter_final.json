@@ -1,0 +1,48 @@
+{
+    "competition": "Soccer",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "Electronix", 
+            "path": "Electronix_TEAM/"
+        },
+        {
+            "name": "FrenzyRobot", 
+            "path": "FrenzyRobot/"
+        },
+        {
+            "name": "Perepelka", 
+            "path": "Perepelka/"
+        },
+        {
+            "name": "MakeWash", 
+            "path": "MakeWash/"
+        },
+        {
+            "name": "Robots&me", 
+            "path": "Robots_me/"
+        },
+        {
+            "name": "SPARKLIKI", 
+            "path": "SPARKLIKI/"
+        },
+        {
+            "name": "Vakhitova 1",
+            "path": "Vakhitova1/"
+        },
+        {
+            "name": "Vakhitova 2",
+            "path": "Vakhitova2/"
+        }
+    ],
+
+    "games":
+    [
+        ["Electronix", "FrenzyRobot"],
+        ["MakeWash", "Robots&me"],
+        ["SPARKLIKI", "Vakhitova 1"],
+        ["Perepelka", "Vakhitova 2"]
+    ]
+}

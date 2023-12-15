@@ -1,0 +1,266 @@
+2023-04-30 14:08:16.559867
+2023-04-30 14:09:01,064 Socket timeout
+2023-04-30 14:09:01,579 Socket timeout
+2023-04-30 14:09:02,086 Socket timeout
+2023-04-30 14:09:02,595 Socket timeout
+2023-04-30 14:09:03,105 Socket timeout
+2023-04-30 14:09:03,616 Socket timeout
+2023-04-30 14:09:04,123 Socket timeout
+2023-04-30 14:09:04,641 Socket timeout
+2023-04-30 14:09:05,153 Socket timeout
+2023-04-30 14:09:05,664 Socket timeout
+2023-04-30 14:09:07,188 Socket timeout
+2023-04-30 14:09:07,695 Socket timeout
+2023-04-30 14:09:09,723 Socket timeout
+2023-04-30 14:09:10,236 Socket timeout
+2023-04-30 14:09:11,254 Socket timeout
+2023-04-30 14:09:12,773 Socket timeout
+2023-04-30 14:09:13,285 Socket timeout
+2023-04-30 14:09:14,300 Socket timeout
+2023-04-30 14:09:14,816 Socket timeout
+2023-04-30 14:09:15,332 Socket timeout
+2023-04-30 14:09:16,347 Socket timeout
+2023-04-30 14:09:16,864 Socket timeout
+2023-04-30 14:09:17,375 Socket timeout
+2023-04-30 14:09:17,890 Socket timeout
+2023-04-30 14:09:18,398 Socket timeout
+2023-04-30 14:09:24,008 Socket timeout
+2023-04-30 14:09:28,099 Socket timeout
+2023-04-30 14:09:28,622 Socket timeout
+2023-04-30 14:09:30,156 Socket timeout
+2023-04-30 14:09:30,663 Socket timeout
+2023-04-30 14:09:31,172 Socket timeout
+2023-04-30 14:09:31,682 Socket timeout
+2023-04-30 14:09:32,200 Socket timeout
+2023-04-30 14:09:32,721 Socket timeout
+2023-04-30 14:09:33,227 Socket timeout
+2023-04-30 14:09:33,732 Socket timeout
+2023-04-30 14:09:34,245 Socket timeout
+2023-04-30 14:09:34,752 Socket timeout
+2023-04-30 14:09:35,262 Socket timeout
+2023-04-30 14:09:35,772 Socket timeout
+2023-04-30 14:09:36,297 Socket timeout
+2023-04-30 14:09:37,307 Socket timeout
+2023-04-30 14:09:37,822 Socket timeout
+2023-04-30 14:09:38,327 Socket timeout
+2023-04-30 14:09:39,342 Socket timeout
+2023-04-30 14:09:39,852 Socket timeout
+2023-04-30 14:09:40,362 Socket timeout
+2023-04-30 14:09:40,870 Socket timeout
+2023-04-30 14:09:41,382 Socket timeout
+2023-04-30 14:09:41,889 Socket timeout
+2023-04-30 14:09:42,402 Socket timeout
+2023-04-30 14:09:42,912 Socket timeout
+2023-04-30 14:09:43,921 Socket timeout
+2023-04-30 14:09:44,432 Socket timeout
+2023-04-30 14:09:44,942 Socket timeout
+2023-04-30 14:09:45,450 Socket timeout
+2023-04-30 14:09:48,001 Socket timeout
+2023-04-30 14:09:52,552 Socket timeout
+2023-04-30 14:09:53,062 Socket timeout
+2023-04-30 14:09:53,572 Socket timeout
+2023-04-30 14:09:54,082 Socket timeout
+2023-04-30 14:09:54,592 Socket timeout
+2023-04-30 14:09:55,098 Socket timeout
+2023-04-30 14:09:56,611 Socket timeout
+2023-04-30 14:09:57,122 Socket timeout
+2023-04-30 14:09:58,134 Socket timeout
+2023-04-30 14:09:58,642 Socket timeout
+2023-04-30 14:09:59,157 Socket timeout
+2023-04-30 14:10:00,672 Socket timeout
+2023-04-30 14:10:01,184 Socket timeout
+2023-04-30 14:10:01,691 Socket timeout
+2023-04-30 14:10:02,202 Socket timeout
+2023-04-30 14:10:02,712 Socket timeout
+2023-04-30 14:10:03,725 Socket timeout
+2023-04-30 14:10:13,833 Socket timeout
+2023-04-30 14:10:14,342 Socket timeout
+2023-04-30 14:10:15,354 Socket timeout
+2023-04-30 14:10:15,859 Socket timeout
+2023-04-30 14:10:16,372 Socket timeout
+2023-04-30 14:10:16,882 Socket timeout
+2023-04-30 14:10:17,392 Socket timeout
+2023-04-30 14:10:17,902 Socket timeout
+2023-04-30 14:10:18,412 Socket timeout
+2023-04-30 14:10:18,925 Socket timeout
+2023-04-30 14:10:19,436 Socket timeout
+2023-04-30 14:10:19,939 Socket timeout
+2023-04-30 14:10:20,954 Socket timeout
+2023-04-30 14:10:23,488 Socket timeout
+2023-04-30 14:10:24,500 Socket timeout
+2023-04-30 14:10:25,016 Socket timeout
+2023-04-30 14:10:25,522 Socket timeout
+2023-04-30 14:10:26,032 Socket timeout
+2023-04-30 14:10:26,542 Socket timeout
+2023-04-30 14:10:27,552 Socket timeout
+2023-04-30 14:10:28,061 Socket timeout
+2023-04-30 14:10:28,572 Socket timeout
+2023-04-30 14:10:29,081 Socket timeout
+2023-04-30 14:10:29,601 Socket timeout
+2023-04-30 14:10:31,632 Socket timeout
+2023-04-30 14:10:32,146 Socket timeout
+2023-04-30 14:10:34,178 Socket timeout
+2023-04-30 14:10:35,188 Socket timeout
+2023-04-30 14:10:36,707 Socket timeout
+2023-04-30 14:10:37,221 Socket timeout
+2023-04-30 14:10:37,736 Socket timeout
+2023-04-30 14:10:38,762 Socket timeout
+2023-04-30 14:10:46,892 Socket timeout
+2023-04-30 14:10:47,402 Socket timeout
+2023-04-30 14:10:47,912 Socket timeout
+2023-04-30 14:10:48,423 Socket timeout
+2023-04-30 14:10:48,935 Socket timeout
+2023-04-30 14:10:50,465 Socket timeout
+2023-04-30 14:10:51,482 Socket timeout
+2023-04-30 14:10:51,992 Socket timeout
+2023-04-30 14:10:52,501 Socket timeout
+2023-04-30 14:10:53,512 Socket timeout
+2023-04-30 14:10:54,021 Socket timeout
+2023-04-30 14:10:55,035 Socket timeout
+2023-04-30 14:10:55,544 Socket timeout
+2023-04-30 14:10:56,051 Socket timeout
+2023-04-30 14:10:56,562 Socket timeout
+2023-04-30 14:10:57,065 Socket timeout
+2023-04-30 14:10:57,572 Socket timeout
+2023-04-30 14:10:58,082 Socket timeout
+2023-04-30 14:10:58,591 Socket timeout
+2023-04-30 14:10:59,102 Socket timeout
+2023-04-30 14:10:59,611 Socket timeout
+2023-04-30 14:11:00,123 Socket timeout
+2023-04-30 14:11:00,632 Socket timeout
+2023-04-30 14:11:01,142 Socket timeout
+2023-04-30 14:11:01,652 Socket timeout
+2023-04-30 14:11:02,164 Socket timeout
+2023-04-30 14:11:03,192 Socket timeout
+2023-04-30 14:11:10,812 Socket timeout
+2023-04-30 14:11:18,442 Socket timeout
+2023-04-30 14:11:24,042 Socket timeout
+2023-04-30 14:11:25,052 Socket timeout
+2023-04-30 14:11:25,559 Socket timeout
+2023-04-30 14:11:26,072 Socket timeout
+2023-04-30 14:11:26,588 Socket timeout
+2023-04-30 14:11:29,132 Socket timeout
+2023-04-30 14:11:29,642 Socket timeout
+2023-04-30 14:11:30,152 Socket timeout
+2023-04-30 14:11:30,662 Socket timeout
+2023-04-30 14:11:31,191 Socket timeout
+2023-04-30 14:11:31,702 Socket timeout
+2023-04-30 14:11:32,222 Socket timeout
+2023-04-30 14:11:32,731 Socket timeout
+2023-04-30 14:11:33,242 Socket timeout
+2023-04-30 14:11:33,762 Socket timeout
+2023-04-30 14:11:34,271 Socket timeout
+2023-04-30 14:11:34,782 Socket timeout
+2023-04-30 14:11:35,292 Socket timeout
+2023-04-30 14:11:35,802 Socket timeout
+2023-04-30 14:11:36,313 Socket timeout
+2023-04-30 14:11:36,821 Socket timeout
+2023-04-30 14:11:37,334 Socket timeout
+2023-04-30 14:11:38,856 Socket timeout
+2023-04-30 14:11:39,871 Socket timeout
+2023-04-30 14:11:40,894 Socket timeout
+2023-04-30 14:11:41,408 Socket timeout
+2023-04-30 14:11:43,432 Socket timeout
+2023-04-30 14:11:43,943 Socket timeout
+2023-04-30 14:11:44,457 Socket timeout
+2023-04-30 14:11:44,972 Socket timeout
+2023-04-30 14:11:45,982 Socket timeout
+2023-04-30 14:11:46,496 Socket timeout
+2023-04-30 14:11:47,002 Socket timeout
+2023-04-30 14:11:47,521 Socket timeout
+2023-04-30 14:11:48,041 Socket timeout
+2023-04-30 14:11:48,556 Socket timeout
+2023-04-30 14:11:49,070 Socket timeout
+2023-04-30 14:11:49,582 Socket timeout
+2023-04-30 14:11:50,090 Socket timeout
+2023-04-30 14:11:50,601 Socket timeout
+2023-04-30 14:11:51,611 Socket timeout
+2023-04-30 14:11:52,124 Socket timeout
+2023-04-30 14:11:53,149 Socket timeout
+2023-04-30 14:11:53,660 Socket timeout
+2023-04-30 14:11:54,172 Socket timeout
+2023-04-30 14:11:54,687 Socket timeout
+2023-04-30 14:11:55,699 Socket timeout
+2023-04-30 14:11:56,227 Socket timeout
+2023-04-30 14:12:03,821 Socket timeout
+2023-04-30 14:12:04,832 Socket timeout
+2023-04-30 14:12:05,338 Socket timeout
+2023-04-30 14:12:05,846 Socket timeout
+2023-04-30 14:12:06,362 Socket timeout
+2023-04-30 14:12:06,872 Socket timeout
+2023-04-30 14:12:07,377 Socket timeout
+2023-04-30 14:12:07,882 Socket timeout
+2023-04-30 14:12:08,393 Socket timeout
+2023-04-30 14:12:08,907 Socket timeout
+2023-04-30 14:12:09,422 Socket timeout
+2023-04-30 14:12:09,936 Socket timeout
+2023-04-30 14:12:10,441 Socket timeout
+2023-04-30 14:12:10,952 Socket timeout
+2023-04-30 14:12:11,462 Socket timeout
+2023-04-30 14:12:11,972 Socket timeout
+2023-04-30 14:12:12,482 Socket timeout
+2023-04-30 14:12:12,988 Socket timeout
+2023-04-30 14:12:13,499 Socket timeout
+2023-04-30 14:12:14,511 Socket timeout
+2023-04-30 14:12:15,022 Socket timeout
+2023-04-30 14:12:15,532 Socket timeout
+2023-04-30 14:12:16,042 Socket timeout
+2023-04-30 14:12:16,552 Socket timeout
+2023-04-30 14:12:17,072 Socket timeout
+2023-04-30 14:12:18,594 Socket timeout
+2023-04-30 14:12:19,612 Socket timeout
+2023-04-30 14:12:20,122 Socket timeout
+2023-04-30 14:12:26,217 Socket timeout
+2023-04-30 14:12:26,724 Socket timeout
+2023-04-30 14:12:37,432 Socket timeout
+2023-04-30 14:12:37,949 Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Users\rosti\AppData\Local\Programs\Python\Python39\lib\threading.py", line 950, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rosti\AppData\Local\Programs\Python\Python39\lib\threading.py", line 888, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "C:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-04-30 14:12:38,474 Socket timeout
+2023-04-30 14:12:38,998 Socket timeout
+2023-04-30 14:12:39,522 Socket timeout
+2023-04-30 14:12:40,042 Socket timeout
+n_To_Course(0)
+2023-04-30 14:11:01,992 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(643) - goalkeeper near_distance_omni_motion
+2023-04-30 14:11:23,922 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(645) - goalkeeper turn_To_Course(0)
+2023-04-30 14:11:26,128 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,082 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,086 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-04-30 14:11:38,092 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(607) - goalkeeper turn_To_Course(pi*2/3)
+2023-04-30 14:11:38,102 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,112 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-04-30 14:11:38,118 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,123 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-04-30 14:11:38,131 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,137 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-04-30 14:11:38,144 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,152 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-04-30 14:11:38,157 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,164 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-04-30 14:11:38,167 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,175 - [INFO] - __main__ - (class_Motion_Webots_PB.py).falling_Test(123) - STOP!
+2023-04-30 14:11:38,720 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:11:38,750 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(104) - 
+ Game Controller STATE_INITIAL. Waiting for READY..
+2023-04-30 14:11:42,971 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(119) - 
+ Game Controller STATE_READY. Waiting for SET..
+2023-04-30 14:11:48,758 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(134) - 
+ Game Controller STATE_SET. Waiting for PLAYING..
+2023-04-30 14:11:54,703 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(148) - start playing
+2023-04-30 14:11:54,713 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(152) - former_game_state == "STATE_SET"
+2023-04-30 14:11:54,721 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(160) - playing allowed
+2023-04-30 14:11:54,726 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(203) - current_game_state =STATE_PLAYING current_player_penalty =0
+2023-04-30 14:11:54,732 - [INFO] - __main__ - (launcher_pb.py).player_super_cycle(204) - former_game_state =STATE_SET former_player_penalty =0
+2023-04-30 14:11:54,743 - [INFO] - __main__ - (class_Motion_Webots_PB.py).imu_activation(92) - imu_activation
+2023-04-30 14:11:55,839 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(180) - simulate motion slot:Initial_Pose
+2023-04-30 14:12:16,982 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(640) - goalkeeper turn_To_Course(0)
+2023-04-30 14:12:18,502 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(643) - goalkeeper near_distance_omni_motion

@@ -1,0 +1,21 @@
+{
+    "competition": "Soccer",
+    "repeats": 1,
+
+    "teams":
+    [
+        {
+            "name": "MakeWash", 
+            "path": "MakeWash/"
+        },
+        {
+            "name": "SPARKLIKI", 
+            "path": "SPARKLIKI/"
+        }
+    ],
+
+    "games":
+    [
+        ["MakeWash", "SPARKLIKI"]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+"ball_coord": {
+"X": 0.37690453545785907,
+"Y": -0.16101697050246336
+},
+"robot_coord": {
+"X": -0.017051549444255847,
+"Y": -0.005734889200859829
+},
+"robot_current_state": "near_distance_ball_approach_and_kick",
+"duty_direction": 0
+}

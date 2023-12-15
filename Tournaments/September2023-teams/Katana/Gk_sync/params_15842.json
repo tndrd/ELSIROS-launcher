@@ -1,0 +1,12 @@
+{
+"ball_coord": {
+"X": -0.0001780700580933381,
+"Y": -0.012408103226264611
+},
+"robot_coord": {
+"X": -1.6799992706085787,
+"Y": 1.4157790040813106e-06
+},
+"robot_current_state": "watch_Ball_In_Pose",
+"duty_direction": 0
+}

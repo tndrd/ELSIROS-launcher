@@ -1,0 +1,62 @@
+2023-08-10 11:11:57.239374
+2023-08-10 11:12:17,410 Socket timeout
+2023-08-10 11:12:17,912 Socket timeout
+2023-08-10 11:12:18,416 Socket timeout
+2023-08-10 11:12:18,920 Socket timeout
+2023-08-10 11:12:19,938 Socket timeout
+2023-08-10 11:12:20,452 Socket timeout
+2023-08-10 11:12:20,959 Socket timeout
+2023-08-10 11:12:21,462 Socket timeout
+2023-08-10 11:12:21,966 Socket timeout
+2023-08-10 11:12:22,470 Socket timeout
+2023-08-10 11:12:23,005 Socket timeout
+2023-08-10 11:12:23,509 Socket timeout
+2023-08-10 11:12:24,010 Socket timeout
+2023-08-10 11:12:24,525 Socket timeout
+2023-08-10 11:12:25,030 Socket timeout
+2023-08-10 11:12:25,547 Socket timeout
+2023-08-10 11:12:26,553 Socket timeout
+2023-08-10 11:12:27,556 Socket timeout
+2023-08-10 11:12:28,059 Socket timeout
+2023-08-10 11:12:28,566 Socket timeout
+2023-08-10 11:12:29,070 Socket timeout
+2023-08-10 11:12:29,586 Socket timeout
+2023-08-10 11:12:30,602 Socket timeout
+2023-08-10 11:12:31,104 Socket timeout
+2023-08-10 11:12:31,619 Socket timeout
+2023-08-10 11:12:32,135 Socket timeout
+2023-08-10 11:12:32,639 Socket timeout
+2023-08-10 11:12:33,144 Socket timeout
+2023-08-10 11:12:33,646 Socket timeout
+2023-08-10 11:12:34,650 Socket timeout
+2023-08-10 11:12:35,155 Socket timeout
+2023-08-10 11:12:47,326 Socket timeout
+2023-08-10 11:12:50,372 Socket timeout
+2023-08-10 11:12:50,894 Socket timeout
+INFO:__main__:Find sector 2
+2023-08-10 11:12:51,892 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-08-10 11:12:52,401 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-08-10 11:12:53,411 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-08-10 11:12:53,915 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-08-10 11:12:54,452 Socket timeout
+WARNING:game_controller:Socket timeout
+ERROR:communication_manager:Can't send request with error: [WinError 10054] РЈРґР°Р»РµРЅРЅС‹Р№ С…РѕСЃС‚ РїСЂРёРЅСѓРґРёС‚РµР»СЊРЅРѕ СЂР°Р·РѕСЂРІР°Р» СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Users\Р РѕРјР°РЅ\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
+    self.run()
+2023-08-10 11:12:47,106 - [INFO] - __main__ - (strategy.py).Get_gk_coord_and_duty_dist(604) - Y_F -Y_GK = 0.003825195975665067
+2023-08-10 11:12:47,107 - [INFO] - __main__ - (strategy.py).Get_gk_coord_and_duty_dist(605) - Gk_dd 0
+2023-08-10 11:12:47,108 - [INFO] - __main__ - (strategy.py).forward_main_cycle(684) - Gk_ball 0.38,-0.16
+2023-08-10 11:12:47,109 - [INFO] - __main__ - (strategy.py).forward_main_cycle(685) - Gk_State goalkeeper turn_To_Course(0)
+2023-08-10 11:12:47,110 - [INFO] - __main__ - (strategy.py).forward_main_cycle(698) - Calc sector 7
+2023-08-10 11:12:47,111 - [INFO] - __main__ - (strategy.py).forward_main_cycle(704) - Gk_ball  0.38,-0.16 dist 0.44 
+2023-08-10 11:12:49,974 - [INFO] - __main__ - (strategy.py).forward_main_cycle(796) - near_distance_ball_approach_and_kick
+2023-08-10 11:12:50,562 - [INFO] - __main__ - (class_Motion_Webots_PB.py).simulateMotion(184) - simulate motion slot:Initial_Pose
+2023-08-10 11:12:51,163 - [INFO] - __main__ - (class_Motion_real.py).seek_Ball_In_Pose(37) - Sectors [2, 2, 7, 12, 11, 6, 8, 13, 14, 9, 4, 3, 10, 5, 0, 1, 2]
+2023-08-10 11:12:51,543 - [INFO] - __main__ - (class_Motion_real.py).seek_Ball_In_Pose(57) - Find sector 2
+2023-08-10 11:12:59,923 - [ERROR] - communication_manager - (robot_client.py).send_request(110) - Can't send request with error: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение

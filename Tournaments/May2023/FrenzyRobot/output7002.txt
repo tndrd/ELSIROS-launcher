@@ -1,0 +1,107 @@
+2023-04-11 12:48:41.853421
+2023-04-11 12:49:02,124 Socket timeout
+2023-04-11 12:49:02,636 Socket timeout
+2023-04-11 12:49:03,148 Socket timeout
+2023-04-11 12:49:03,661 Socket timeout
+2023-04-11 12:49:04,171 Socket timeout
+2023-04-11 12:49:04,683 Socket timeout
+2023-04-11 12:49:05,194 Socket timeout
+2023-04-11 12:49:06,209 Socket timeout
+2023-04-11 12:49:06,718 Socket timeout
+2023-04-11 12:49:07,226 Socket timeout
+2023-04-11 12:49:07,741 Socket timeout
+2023-04-11 12:49:08,252 Socket timeout
+2023-04-11 12:49:08,765 Socket timeout
+2023-04-11 12:49:09,281 Socket timeout
+2023-04-11 12:49:09,794 Socket timeout
+2023-04-11 12:49:10,305 Socket timeout
+2023-04-11 12:49:10,819 Socket timeout
+2023-04-11 12:49:11,330 Socket timeout
+2023-04-11 12:49:11,845 Socket timeout
+2023-04-11 12:49:12,356 Socket timeout
+2023-04-11 12:49:12,863 Socket timeout
+2023-04-11 12:49:13,877 Socket timeout
+2023-04-11 12:49:14,386 Socket timeout
+2023-04-11 12:49:14,899 Socket timeout
+2023-04-11 12:49:15,410 Socket timeout
+2023-04-11 12:49:15,921 Socket timeout
+2023-04-11 12:49:16,435 Socket timeout
+2023-04-11 12:49:16,948 Socket timeout
+2023-04-11 12:49:17,459 Socket timeout
+2023-04-11 12:49:17,973 Socket timeout
+2023-04-11 12:49:18,480 Socket timeout
+2023-04-11 12:49:18,989 Socket timeout
+2023-04-11 12:49:19,502 Socket timeout
+2023-04-11 12:49:20,014 Socket timeout
+2023-04-11 12:49:20,521 Socket timeout
+2023-04-11 12:49:22,046 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:22,557 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:23,067 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:23,576 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:24,085 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:24,597 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:25,109 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:25,617 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:26,118 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:26,629 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:27,643 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:28,151 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:28,656 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:29,166 Socket timeout
+WARNING:game_controller:Socket timeout
+INFO:__main__:simulate motion slot:Initial_Pose
+2023-04-11 12:49:39,868 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:41,393 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:41,905 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:42,418 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:42,930 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:43,445 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:43,948 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:44,453 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:44,963 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:45,473 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:45,980 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:46,492 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:47,005 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:47,507 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:48,021 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:48,526 Socket timeout
+WARNING:game_controller:Socket timeout
+2023-04-11 12:49:49,028 Socket timeout
+WARNING:game_controller:Socket timeout
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python39\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()

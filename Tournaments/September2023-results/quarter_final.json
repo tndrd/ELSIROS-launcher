@@ -1,0 +1,1506 @@
+[
+    {
+        "discipline": "Soccer",
+        "teams": [
+            {
+                "name": "SPARKLIKI",
+                "path": "September2023-teams/SPARKLIKI/"
+            },
+            {
+                "name": "Selivanov",
+                "path": "September2023-teams/Selivanov/"
+            }
+        ],
+        "results": [
+            "0:1"
+        ],
+        "weights": [
+            {
+                "team": "SPARKLIKI",
+                "data": {
+                    "name": "SPARKLIKI",
+                    "robotStartCmd": "TEAM_1/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "team": "Selivanov",
+                "data": {
+                    "name": "Selivanov",
+                    "robotStartCmd": "TEAM_2/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "discipline": "Soccer",
+        "teams": [
+            {
+                "name": "RobotsAndMe",
+                "path": "September2023-teams/RobotsAndMe/"
+            },
+            {
+                "name": "Vakhitova1",
+                "path": "September2023-teams/Vakhitova1/"
+            }
+        ],
+        "results": [
+            "3:1"
+        ],
+        "weights": [
+            {
+                "team": "RobotsAndMe",
+                "data": {
+                    "name": "RobotsAndMe",
+                    "robotStartCmd": "TEAM_1/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "team": "Vakhitova1",
+                "data": {
+                    "name": "Vakhitova1",
+                    "robotStartCmd": "TEAM_2/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "discipline": "Soccer",
+        "teams": [
+            {
+                "name": "KozinaK",
+                "path": "September2023-teams/KozinaK/"
+            },
+            {
+                "name": "Katana",
+                "path": "September2023-teams/Katana/"
+            }
+        ],
+        "results": [
+            "2:0"
+        ],
+        "weights": [
+            {
+                "team": "KozinaK",
+                "data": {
+                    "name": "KozinaK",
+                    "robotStartCmd": "TEAM_1/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "team": "Katana",
+                "data": {
+                    "name": "Katana",
+                    "robotStartCmd": "TEAM_2/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "discipline": "Soccer",
+        "teams": [
+            {
+                "name": "Voronkov",
+                "path": "September2023-teams/Voronkov/"
+            },
+            {
+                "name": "Vakhitova2",
+                "path": "September2023-teams/Vakhitova2/"
+            }
+        ],
+        "results": [
+            "0:1"
+        ],
+        "weights": [
+            {
+                "team": "Voronkov",
+                "data": {
+                    "name": "Voronkov",
+                    "robotStartCmd": "TEAM_1/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "team": "Vakhitova2",
+                "data": {
+                    "name": "Vakhitova2",
+                    "robotStartCmd": "TEAM_2/main_pb.py",
+                    "players": {
+                        "1": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "goalkeeper_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    -1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "proto": "Robokit1",
+                            "needToBePlacedByRefereeInReady": true,
+                            "role": "forward_old_style",
+                            "borderStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "readyStartingPose": {
+                                "translation": [
+                                    -0.4,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -0.4,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "reentryStartingPose": {
+                                "translation": [
+                                    -0.9,
+                                    1.3,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    -1.57
+                                ]
+                            },
+                            "shootoutStartingPose": {
+                                "translation": [
+                                    0.2,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    0.2,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "goalKeeperStartingPose": {
+                                "translation": [
+                                    -1.68,
+                                    0,
+                                    0.3
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "pf_coord": [
+                                    -1.68,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

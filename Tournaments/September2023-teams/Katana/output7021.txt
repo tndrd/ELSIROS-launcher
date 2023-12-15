@@ -1,0 +1,189 @@
+2023-07-28 08:20:21.798709
+INFO:__main__:Save_Gk at TIME 5.145
+INFO:__main__:Ball 0.02 -0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 5.15
+INFO:__main__:Ball 0.02 -0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 5.865
+INFO:__main__:Ball 0.04 -0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 5.87
+INFO:__main__:Ball 0.04 -0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 6.595
+INFO:__main__:Ball -0.02 0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 6.605
+INFO:__main__:Ball -0.02 0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 7.33
+INFO:__main__:Ball -0.01 0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 7.335
+INFO:__main__:Ball -0.01 0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 8.06
+INFO:__main__:Ball -0.04 0.03
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 8.07
+INFO:__main__:Ball -0.04 0.03
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 8.8
+INFO:__main__:Ball -0.01 0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 8.805
+INFO:__main__:Ball -0.01 0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 9.52
+INFO:__main__:Ball -0.03 0.03
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 9.525
+INFO:__main__:Ball -0.03 0.03
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 10.255
+INFO:__main__:Ball -0.04 0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 10.26
+INFO:__main__:Ball -0.04 0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 10.965
+INFO:__main__:Ball 0.0 -0.0
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 10.975
+INFO:__main__:Ball 0.0 -0.0
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 11.69
+INFO:__main__:Ball 0.04 -0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 11.695
+INFO:__main__:Ball 0.04 -0.02
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:Save_Gk at TIME 12.43
+INFO:__main__:Ball -0.02 0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State watch_Ball_In_Pose
+INFO:__main__:goalkeeper turn_To_Course(0)
+INFO:__main__:goalkeeper near_distance_omni_motion
+INFO:__main__:Save_Gk at TIME 12.97
+INFO:__main__:Ball -0.02 0.01
+INFO:__main__:Gk -1.6 1.0
+INFO:__main__:State goalkeeper near_distance_omni_motion
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "C:\Users\Роман\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Роман\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "E:\Elsiros\controllers\player\communication_manager_robokit.py", line 250, in run
+    messages_list = self.__client.receive2()
+  File "E:\Elsiros\controllers\player\robot_client.py", line 128, in receive2
+    chunk = self.socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+e_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:45,688 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 5.15
+2023-07-28 08:20:45,689 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball 0.02 -0.01
+2023-07-28 08:20:45,690 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:45,691 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:46,472 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 5.865
+2023-07-28 08:20:46,473 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball 0.04 -0.02
+2023-07-28 08:20:46,474 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:46,476 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:46,480 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 5.87
+2023-07-28 08:20:46,481 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball 0.04 -0.02
+2023-07-28 08:20:46,482 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:46,484 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:47,282 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 6.595
+2023-07-28 08:20:47,284 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.02 0.02
+2023-07-28 08:20:47,285 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:47,286 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:47,290 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 6.605
+2023-07-28 08:20:47,291 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.02 0.02
+2023-07-28 08:20:47,292 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:47,293 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:48,089 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 7.33
+2023-07-28 08:20:48,090 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.01 0.01
+2023-07-28 08:20:48,091 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:48,093 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:48,096 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 7.335
+2023-07-28 08:20:48,097 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.01 0.01
+2023-07-28 08:20:48,098 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:48,099 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:48,925 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 8.06
+2023-07-28 08:20:48,927 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.04 0.03
+2023-07-28 08:20:48,928 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:48,929 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:48,934 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 8.07
+2023-07-28 08:20:48,936 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.04 0.03
+2023-07-28 08:20:48,938 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:48,943 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:49,750 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 8.8
+2023-07-28 08:20:49,751 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.01 0.01
+2023-07-28 08:20:49,752 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:49,754 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:49,758 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 8.805
+2023-07-28 08:20:49,760 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.01 0.01
+2023-07-28 08:20:49,760 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:49,761 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:50,524 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 9.52
+2023-07-28 08:20:50,526 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.03 0.03
+2023-07-28 08:20:50,528 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:50,530 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:50,535 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 9.525
+2023-07-28 08:20:50,537 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.03 0.03
+2023-07-28 08:20:50,538 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:50,538 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:51,347 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 10.255
+2023-07-28 08:20:51,349 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.04 0.02
+2023-07-28 08:20:51,350 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:51,352 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:51,357 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 10.26
+2023-07-28 08:20:51,358 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.04 0.02
+2023-07-28 08:20:51,359 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:51,360 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:52,122 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 10.965
+2023-07-28 08:20:52,124 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball 0.0 -0.0
+2023-07-28 08:20:52,125 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:52,126 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:52,130 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 10.975
+2023-07-28 08:20:52,131 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball 0.0 -0.0
+2023-07-28 08:20:52,132 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:52,133 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:52,912 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 11.69
+2023-07-28 08:20:52,913 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball 0.04 -0.02
+2023-07-28 08:20:52,915 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:52,916 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:52,921 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 11.695
+2023-07-28 08:20:52,923 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball 0.04 -0.02
+2023-07-28 08:20:52,927 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:52,930 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:53,733 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 12.43
+2023-07-28 08:20:53,734 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.02 0.01
+2023-07-28 08:20:53,736 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:53,736 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State watch_Ball_In_Pose
+2023-07-28 08:20:53,739 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(977) - goalkeeper turn_To_Course(0)
+2023-07-28 08:20:54,332 - [INFO] - __main__ - (strategy.py).goalkeeper_main_cycle(981) - goalkeeper near_distance_omni_motion
+2023-07-28 08:20:54,335 - [INFO] - __main__ - (strategy.py).Save_GK_params(773) - Save_Gk at TIME 12.97
+2023-07-28 08:20:54,337 - [INFO] - __main__ - (strategy.py).Save_GK_params(774) - Ball -0.02 0.01
+2023-07-28 08:20:54,338 - [INFO] - __main__ - (strategy.py).Save_GK_params(775) - Gk -1.6 1.0
+2023-07-28 08:20:54,338 - [INFO] - __main__ - (strategy.py).Save_GK_params(776) - State goalkeeper near_distance_omni_motion
